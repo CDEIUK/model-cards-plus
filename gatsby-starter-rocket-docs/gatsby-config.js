@@ -20,7 +20,7 @@ module.exports = {
         homePath: `src/home`,
         yamlFilesPath: `src/yamlFiles`,
         repositoryUrl: `https://github.com/jpedroschmitz/rocketdocs`,
-        baseDir: `examples/gatsby-theme-docs`,
+        baseDir: `model-cards-plus/gatsby-starter-rocket-docs`,
         gatsbyRemarkPlugins: [],
       },
     },
