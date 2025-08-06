@@ -29,7 +29,7 @@ export default function GlobalStyle() {
           box-sizing: border-box;
         }
 
-        *::selection {
+        ::selection {
           background: ${lighten("0.35", "#737380")}!important;
         }
 
