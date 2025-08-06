@@ -1,5 +1,5 @@
 {
-  "name": "gatsby-starter-rocketdocs",
+  "name": "cdei-model-cards",
   "private": true,
   "version": "1.0.0",
   "description": "Out of the box Gatsby Starter for creating documentation websites easily and quickly. With support for MDX, code highlight, Analytics, SEO and more",
@@ -21,16 +21,25 @@
   },
   "devDependencies": {
     "@babel/core": "^7.28.0",
-    "ajv": "^7.2.4"
+    "ajv": "^7.2.4",
+    "gh-pages": "^6.3.0"
   },
   "keywords": [
     "gatsby",
     "gatsby-starter"
   ],
+  
   "scripts": {
-    "build": "gatsby build",
-    "start": "gatsby develop",
-    "serve": "gatsby serve",
+    "build": "gatsby build --prefix-paths",
+    "develop": "gatsby develop",
+    "format": "prettier --write \"**/*.{css,js,jsx,md,mdx}\"",
+    "format-check": "prettier --check \"**/*.{css,js,jsx,md,mdx}\"",
+    "start": "npm run develop",
+    "serve": "gatsby serve --prefix-paths",
     "clean": "gatsby clean"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/CDEIUK/model-cards-plus"
   }
 }

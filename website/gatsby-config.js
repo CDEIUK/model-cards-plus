@@ -1,10 +1,11 @@
 module.exports = {
+  pathPrefix: "/model-cards-plus",
   siteMetadata: {
     siteTitle: `Rocket Docs`,
     defaultTitle: `Rocket Docs`,
     siteTitleShort: `Rocket Docs`,
     siteDescription: `Out of the box Gatsby Theme for creating documentation websites easily and quickly`,
-    siteUrl: `https://rocketdocs.netlify.app`,
+    siteUrl: `https://cdeiuk.github.io/model-cards-plus/`,
     siteAuthor: `@jpedroschmitz`,
     siteImage: `/banner.png`,
     siteLanguage: `en`,
@@ -46,7 +47,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-canonical-urls`,
       options: {
-        siteUrl: `https://rocketdocs.netlify.app`,
+        siteUrl: `https://cdeiuk.github.io/model-cards-plus/`,
       },
     },
     `gatsby-plugin-offline`,
