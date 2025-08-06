@@ -43,11 +43,21 @@ module.exports = {
     //     trackingId: `YOUR_ANALYTICS_ID`,
     //   },
     // },
-    `gatsby-plugin-remove-trailing-slashes`,
     {
       resolve: `gatsby-plugin-canonical-urls`,
       options: {
         siteUrl: `https://cdeiuk.github.io/model-cards-plus/`,
+      },
+    },
+    {
+      resolve: `gatsby-plugin-emotion`,
+      options: {
+        // Accepts the following options, all of which are defined by `@emotion/babel-plugin` plugin.
+        // The values for each key in this example are the defaults the plugin uses.
+        sourceMap: true,
+        autoLabel: "dev-only",
+        labelFormat: `[local]`,
+        cssPropOptimization: true,
       },
     },
     `gatsby-plugin-offline`,
