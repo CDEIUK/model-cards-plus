@@ -1,5 +1,8 @@
 # Sidebar navigation
 
+- label: Home
+  link: /
+
 - label: 'Introduction'
   items:
     - label: 'What is Model Cards Plus?'

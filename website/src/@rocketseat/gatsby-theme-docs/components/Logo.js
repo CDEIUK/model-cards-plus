@@ -4,7 +4,7 @@ import logo from "../assets/logo.svg"
 
 export default styled.div`
   width: 160px;
-  height: 74px;
+  height: 90px;
   background-size: contain;
   background: url(${logo}) center no-repeat;
 `
