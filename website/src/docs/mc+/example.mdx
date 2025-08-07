@@ -1,0 +1,68 @@
+---
+title: Example use
+description: Example use
+---
+import CookieBanner from "../../components/cookies"
+import OutboundLink from "../../components/outbound-link"
+import Collapse from "../../components/collapse"
+import License from "../../components/license"
+
+<CookieBanner />
+
+### Building a brand sentiment classification system
+
+A team of developers is building a machine learning application for a media buying company to track the sentiment attached to brands in public news over time. To do so, they design a software to deploy on the cloud in three stages:
+
+1. An automated data extraction package for compiling corpuses of news headlines;
+2. A Natural Language Processing (NLP) pipeline with brand identification and sentiment analysis models;
+3. An administrative system for the application, including dashboards and basic software controls.
+
+The team agrees to use Model Cards Plus to document information about their core technical assets to ensure that:
+
+1. Developers are aware of potential risks that could be addressed through their choice of technical implementations;
+2. Their company’s management team understand how well the model performs under well-defined conditions, the latent risks of using the software on out-of-distribution headlines, and mitigative actions that have already been taken at the development stage.
+
+<Collapse label="Dataset Card">
+
+The data engineers and data architect are responsible for creating a data extraction package that will pull online news article headlines into a corpus that can be processed by NLP models. The package requests web crawl data from a public repository via an API to supply an operational database that is updated daily. Prior to deployment, the team collects two weeks’ worth of news data, takes a subset of it and annotates it with brand and sentiment labels for NLP model fine-tuning and testing. They use the Dataset Card to record the following information:
+
+- The reason the dataset was prepared and its intended uses (D9-10).
+- The dataset coverage across news sources, languages and publish dates (D16-17).
+- How representative the training data is of the target population of daily news headlines from two weeks of collection (D18-D19).
+- How their overall training data collection procedure was performed through API querying and annotation, including the specific methods used to filter and partition article data, the rules of and people involved in data annotation, the time taken, and how they accounted for their company’s internal data ethics policies in their software design (D22-28).
+- Their plan for updating the training dataset to avoid model drift and their policy for retaining and deleting data (D21, D31-32).
+
+They provide the Dataset Card to the model team alongside the annotated dataset.
+
+</Collapse>
+
+<Collapse label="Model Card">
+
+The ML engineers are responsible for creating the machine learning program that will predict the sentiment associated with brands featured in daily article data. To do this, they structure a pipeline with two models: a _Brand Identification_ model for predicting the appearance of named corporate entities in text, and a _Sentiment Analysis_ model for classifying the sentiment of short text extracts into ‘positive’, ‘neutral’ and ‘negative’ categories. In each case, they fine-tune open-source pre-trained models using the annotated data supplied by the data team, using the Dataset Card to guide their pre-processing techniques and evaluation methods. They use two Model Cards to record the following information:
+
+- The types and formats of data the models are designed to ingest, what they output, and their key structural components (M7-10).
+- The ways in which the models help fulfil the intended purpose of the overall system and types of headlines that it may not be suitable to process (M13-14).
+- The way in which they perform tokenisation and feature-scaling prior to development, and then split for training, validation and testing (M18-21).
+- The accuracy and F1 scores of model classifications, including scores disaggregated over news sources and languages (M24-28).
+- A set of risks and limitations identified during the model development phase, including model bias, edge-case performance, model and data drift, implications of narrow classifications, and dangers of misrepresentation (M33-38).
+
+They provide the Model Cards to the application developers alongside the trained model artefacts.
+
+</Collapse>
+
+
+<Collapse label="System Card">
+
+The product manager, MLOps engineer and software engineer are responsible for ensuring the pipeline can be deployed successfully in a production environment and deliver insights to their business intelligence team. They use containers to bundle the application source code and establish a cloud service infrastructure to run data extraction and inference at scale. They also create an interactive dashboard to query data from the end repository, and a service orchestrator that allows administrators to adjust basic system parameters such as run frequency and the range of news domains. They use a System Card to record the following information:
+
+- The application architecture of their solution, including a visual overview of how the data extraction package and NLP models fit together in their application (S13-S18).
+- The business case for the application and who its intended users are within the company (S19-20).
+- How the development team have acknowledged and adhered to their company’s AI policy, and any policies that downstream users should be aware of when operating the application (S23-S29).
+- How the application performance has been evaluated, including the key insights from model testing (S30-S33)
+- A high-level risk assessment produced by the product manager, shaped by discussions with all the developers involved in the project (S34).
+
+They provide the System Card to the company directors and the end-users in the business intelligence team.
+
+</Collapse>
+
+<License />

@@ -5,7 +5,7 @@ export const Container = styled.aside`
   max-width: 280px;
   min-width: 280px;
   background-color: ${({ theme }) => theme.colors.sidebar.background};
-  position: fixed;
+  position: relative;
   overflow-y: auto;
   left: 0;
   display: flex;
