@@ -1,6 +1,7 @@
 import styled from "@emotion/styled"
 
 export const Container = styled.aside`
+  box-shadow: 5px 0 4px -4px #888;
   width: 20%;
   max-width: 280px;
   min-width: 280px;
@@ -13,7 +14,7 @@ export const Container = styled.aside`
   align-items: center;
   flex-direction: column;
   transition: transform 0.5s;
-  height: 100vh;
+  min-height: 100vh;
   nav {
     // font-family: 'Alte DIN 1451 Mittelschrift', sans-serif;
     width: 100%;

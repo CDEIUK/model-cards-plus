@@ -11,6 +11,7 @@
     "@emotion/react": "^11.14.0",
     "@emotion/styled": "^11.14.1",
     "@rocketseat/gatsby-theme-docs": "^4.0.0",
+    "d3-mitch-tree": "^1.1.2",
     "emotion-theming": "^11.0.0",
     "gatsby": "^5.9.0",
     "gatsby-plugin-canonical-urls": "^5.9.0",
@@ -42,7 +43,7 @@
     "gatsby-starter"
   ],
   "scripts": {
-    "build": "gatsby build --prefix-paths",
+    "build": "gatsby build --prefix-paths && gh-pages",
     "develop": "gatsby develop",
     "format": "prettier --write \"**/*.{css,js,jsx,md,mdx}\"",
     "format-check": "prettier --check \"**/*.{css,js,jsx,md,mdx}\"",

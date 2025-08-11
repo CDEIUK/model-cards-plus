@@ -5,7 +5,7 @@ module.exports = {
     defaultTitle: `Model Cards Plus`,
     siteTitleShort: `MC+`,
     siteDescription: `Find out about Model Cards Plus, a three-part framework for capturing information about AI systems, AI models and datasets. `,
-    siteUrl: `https://cdeiuk.github.io/model-cards-plus/`,
+    siteUrl: `https://cdeiuk.github.io/model-cards-plus`,
     siteAuthor: `@jpedroschmitz`,
     siteImage: `/banner.png`,
     siteLanguage: `en`,
@@ -70,17 +70,12 @@ module.exports = {
       },
     },
     {
-      resolve: `gatsby-transformer-remark`,
+      resolve: `gatsby-remark-images`,
       options: {
-        plugins: [
-          {
-            resolve: `gatsby-remark-images`,
-            options: {
-              maxWidth: 800,
-            },
-          },
-        ],
+        linkImagesToOriginal: false,
+        backgroundColor: `transparent`,
+        withWebp: true,
       },
-    },
+    },  
   ],
 };

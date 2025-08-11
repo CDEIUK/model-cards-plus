@@ -5,33 +5,33 @@
 
 - label: 'Introduction'
   items:
-    - label: 'What is Model Cards Plus?'
+    - label: 'What is MC+?'
       link: /mc+/what-is-mc+
-    - label: 'What are cards?'
-      link: /mc+/what-are-cards
-    - label: 'Why did we create MC+?'
-      link: /mc+/why-mc+
-    - label: 'How have we developed MC+?'
-      link: /mc+/how-have-we-developed-mc+
+    - label: 'Background'
+      link: /mc+/background
+    - label: 'The MC+ framework'
+      link: /mc+/framework
+    - label: 'Test plot'
+      link: /mc+/test-plot
+
+- label: 'Getting started'
+  items:
+    - label: 'Who can use MC+?'
+      link: /mc+/who-can-use-mc+    
     - label: 'What could MC+ offer me?'
       link: /mc+/what-could-mc+offer-me
+    # - label: 'MC+ for policy'
+    #   link: /mc+/what-could-mc+offer-me
+    # - label: 'MC+ for governance'
+    #   link: /mc+/what-could-mc+offer-me
+    - label: 'FAQs'
+      link: /mc+/faqs
 
-- label: 'Using MC+'
+- label: 'Resources'
   items:
-    - label: 'How do the three MC+ cards work together?'
-      link: /mc+/working-together
-    - label: 'Who can use MC+?'
-      link: /mc+/who-can-use-mc+
-    - label: 'What information does MC+ capture?'
-      link: /mc+/what-information-capture
-    - label: 'How much information does MC+ require?'
-      link: /mc+/how-much-information-capture
-    - label: 'What types of technology does MC+ cover?'
-      link: /mc+/what-types-of-technology
-    - label: 'How and when should I use MC+?'
-      link: /mc+/how-and-when-should-i-use-mc+
-    - label: 'Could I use other types of cards with MC+?'
-      link: /mc+/other-types-of-cards
+    - label: 'Dataset Card'
+    - label: 'Model Card'
+    - label: 'System Card'
 
 - label: 'MC+ in context'
   items:
