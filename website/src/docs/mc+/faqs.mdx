@@ -1,0 +1,82 @@
+---
+title: FAQs
+---
+import CookieBanner from "../../components/cookies"
+import OutboundLink from "../../components/outbound-link"
+import Collapse from "../../components/collapse"
+import License from "../../components/license"
+
+<CookieBanner />
+
+<Collapse label="What information does MC+ capture?">
+
+Each card corresponds to one named component of an AI system: a dataset, a trained model, or the system itself. Cards are split into sections that focus on one aspect of technology characteristics or practices. A complete list of thematic sections of the MC+ framework is presented in Table 3 below.
+
+Table : List of MC+ card sections.
+
+| Card | Sections | Exploration area |
+| --- | --- | --- |
+| **Dataset Card** | Dataset overview | The high-level details of the dataset. |
+| Dataset usage | The rationale for dataset curation and use. |
+| Dataset characteristics | The characteristics of the dataset. |
+| Data provenance and collection | The data provenance and methods used to curate the dataset. |
+| Data controls | The regulatory controls applied to the dataset. |
+| Additional information | Additional information |
+| **Model Card** | Model overview | The high-level features and character of the model. |
+| Model usage | The scope and rationale for model use. |
+| Datasets and training | The data used to develop the model and the model training process |
+| Evaluation | The measurement of aggregate and disaggregate model performance. |
+| Enabling technology and environmental impact | The resource dependencies of the model. |
+| Risks | The risks and risk factors associated with the model, and how they have or could be mitigated against. |
+| Additional information | Additional information |
+| **System Card** | System overview | The high-level features and character of the system. |
+| System description | The functional components of the system and how they relate. |
+| System usage | The scope and rationale for system use. |
+| Compliance and policy | The rules and regulations around system provision and use. |
+| Performance and evaluation | The performance of the system and how it has been tested. |
+| Risks | The risks associated with system use and how to manage them. |
+| Additional information | Additional information |
+
+</Collapse>
+
+<Collapse label="What types of technology can MC+ be used for?">
+
+The current MC+ framework is flexible and intended to accommodate information about any machine learning system. It is suitable for all:
+
+- **Methods of ML**, including supervised, self-supervised, unsupervised, and reinforcement learning;
+- **Model scales**, from simple regression models to multi-billion parameter transformers;
+- **Data modalities**, including tabular, audio, video, image and time-series data;
+- **Domains of system use**, which are extremely varied.
+
+However, we acknowledge the trade-off between the broad scope of the framework and the consistency and utility of information it provides in specific contexts. Future development could involve creating modules or variants of MC+ cards to tailor them for different users. Therefore, we are interested in understanding the contexts in which the MC+ framework could better meet user needs.
+
+</Collapse>
+
+<Collapse label="How and when should I use MC+?">
+
+Cards are likely to be most valuable at points of exchange in the AI lifecycle, particularly before a new person or team begins using the technology that has been documented. Active use of MC+ during the development and pre-deployment processes provides the best opportunity for effective AI governance, including accurate logging and timely risk treatment. As such, we recommend that cards are completed and used sequentially during new AI development projects, with information about datasets being used to inform model training and testing, and information about trained models used to inform system use and management. An example of how MC+ could be employed across the breadth of the lifecycle is provided in [the Annex](#_Annex_A_-).
+
+However, cards could also be completed retrospectively. This could be particularly useful if the technology is likely to be developed or distributed further.
+
+Given the dynamic nature of many datasets, models and systems, card information may become outdated and require replacing or renewing. Currently, MC+ cards are offered as simple, static templates, meaning that changes to fields need to be made manually and make cards difficult to maintain as continually up-to-date documents. As a guideline for static cards, we suggest that a new card should be created with each major version update to the technology.
+
+When writing a card, we recommend that one lead author oversees completion to ensure that information is consistent and thorough. However, any number of people could contribute to a card.
+
+</Collapse>
+
+
+<Collapse label="How much information does MC+ require?">
+
+MC+ is designed to be modular, extensible and content agnostic, meaning that the amount of information contained within cards could vary significantly based on the organisational context they are being used in and the technical, social and regulatory complexity of the card subject. We do not specify lengths for text-based fields, but categorise them as broadly as: short (a few words), medium (a few sentences) and long (several sentences or paragraphs).
+
+In addition, some long-text fields are appended with an option space for linking images, documents and web pages. These types of content could either replace or supplement a text response.
+
+All fields are currently treated as optional in the framework except the fields in the first “overview” sections of each card which are required as the minimum basis of a valid card.
+
+</Collapse>
+
+<Collapse label="Could I use other types of cards with MC+?">
+
+While the MC+ cards have been designed with interdependence and communication across the AI lifecycle in mind, other forms of ML documentation could potentially substitute each of the cards. For example, organisations with a proprietary model card commonly used by their developers may choose to retain their own form of model documentation and supplement it with MC+ dataset cards and/or system cards to achieve their AI governance goals.
+
+</Collapse>

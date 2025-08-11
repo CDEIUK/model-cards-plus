@@ -1,0 +1,23 @@
+code.inline-code {
+  /* Overriding the theme style, hence the "!important" */
+  background-color: #00a886 !important;
+}
+
+.narrow-screen-warning {
+  display: none;
+}
+
+.js-plotly-plot > .plot-container > div.svg-container {
+  margin: 0 auto !important;
+}
+
+@media screen and (max-width: 600px) {
+  /* Hide plots and show warning. */
+  .js-plotly-plot {
+    display: none;
+  }
+  .narrow-screen-warning {
+    display: block;
+    padding: 1em;
+  }
+}

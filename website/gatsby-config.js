@@ -1,11 +1,11 @@
 module.exports = {
   pathPrefix: "/model-cards-plus",
   siteMetadata: {
-    siteTitle: `Rocket Docs`,
-    defaultTitle: `Rocket Docs`,
-    siteTitleShort: `Rocket Docs`,
-    siteDescription: `Out of the box Gatsby Theme for creating documentation websites easily and quickly`,
-    siteUrl: `https://cdeiuk.github.io/model-cards-plus/`,
+    siteTitle: `Model Cards Plus`,
+    defaultTitle: `Model Cards Plus`,
+    siteTitleShort: `MC+`,
+    siteDescription: `Find out about Model Cards Plus, a three-part framework for capturing information about AI systems, AI models and datasets. `,
+    siteUrl: `https://cdeiuk.github.io/model-cards-plus`,
     siteAuthor: `@jpedroschmitz`,
     siteImage: `/banner.png`,
     siteLanguage: `en`,
@@ -20,18 +20,17 @@ module.exports = {
         docsPath: `src/docs`,
         homePath: `src/home`,
         yamlFilesPath: `src/yamlFiles`,
-        repositoryUrl: `https://github.com/jpedroschmitz/rocketdocs`,
-        baseDir: `model-cards-plus/gatsby-starter-rocket-docs`,
+        baseDir: `model-cards-plus/website`,
         gatsbyRemarkPlugins: [],
       },
     },
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Rocket Docs`,
-        short_name: `Rocket Docs`,
+        name: `Model Cards Plus`,
+        short_name: `MC+`,
         start_url: `/`,
-        background_color: `#ffffff`,
+        background_color: `#f0ede3`,
         display: `standalone`,
         icon: `static/favicon.png`,
       },
@@ -43,13 +42,40 @@ module.exports = {
     //     trackingId: `YOUR_ANALYTICS_ID`,
     //   },
     // },
-    `gatsby-plugin-remove-trailing-slashes`,
     {
       resolve: `gatsby-plugin-canonical-urls`,
       options: {
         siteUrl: `https://cdeiuk.github.io/model-cards-plus/`,
       },
     },
+    {
+      resolve: `gatsby-plugin-emotion`,
+      options: {
+        // Accepts the following options, all of which are defined by `@emotion/babel-plugin` plugin.
+        // The values for each key in this example are the defaults the plugin uses.
+        sourceMap: true,
+        autoLabel: "dev-only",
+        labelFormat: `[local]`,
+        cssPropOptimization: true,
+      },
+    },
     `gatsby-plugin-offline`,
+    `gatsby-plugin-sharp`,
+    `gatsby-transformer-sharp`,
+    `gatsby-plugin-image`,
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `${__dirname}/src/content`,
+      },
+    },
+    {
+      resolve: `gatsby-remark-images`,
+      options: {
+        linkImagesToOriginal: false,
+        backgroundColor: `transparent`,
+        withWebp: true,
+      },
+    },  
   ],
 };

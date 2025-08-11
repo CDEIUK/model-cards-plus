@@ -1,11 +1,42 @@
 # Sidebar navigation
 
-- label: 'Model Cards Plus'
+- label: Home
+  link: /
+
+- label: 'Introduction'
   items:
-    - label: 'What is Model Cards Plus?'
+    - label: 'What is MC+?'
       link: /mc+/what-is-mc+
-    - label: 'How do the three MC+ cards work together?'
-      link: /mc+/working-together
+    - label: 'Background'
+      link: /mc+/background
+    - label: 'The MC+ framework'
+      link: /mc+/framework
+    - label: 'Test plot'
+      link: /mc+/test-plot
+
+- label: 'Getting started'
+  items:
+    - label: 'Who can use MC+?'
+      link: /mc+/who-can-use-mc+    
+    - label: 'What could MC+ offer me?'
+      link: /mc+/what-could-mc+offer-me
+    # - label: 'MC+ for policy'
+    #   link: /mc+/what-could-mc+offer-me
+    # - label: 'MC+ for governance'
+    #   link: /mc+/what-could-mc+offer-me
+    - label: 'FAQs'
+      link: /mc+/faqs
+
+- label: 'Resources'
+  items:
+    - label: 'Dataset Card'
+    - label: 'Model Card'
+    - label: 'System Card'
+
+- label: 'MC+ in context'
+  items:
+    - label: 'Example use'
+      link: /mc+/example
 
 # - label: 'Getting Started'
 #   items: 
