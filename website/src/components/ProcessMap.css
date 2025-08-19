@@ -19,7 +19,6 @@ svg:active {
 }
 
 .node rect {
-  fill: #1f77b4;
   stroke: #333;
   stroke-width: 2px;
 }

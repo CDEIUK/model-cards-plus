@@ -14,49 +14,59 @@ const nodes = [
       layer: "Environment", 
       x: 100, y: 200,
       exit_x: 0, exit_y: 40,
-      entry_x: 0, entry_y: 40},
+      entry_x: 0, entry_y: 40,
+      text: "yes"},
   { id: "Algorithm", 
       layer: "Development process", 
       x: 300, y: 200,
       exit_x: 0, exit_y: 40,
-      entry_x: 0, entry_y: 40},
+      entry_x: 0, entry_y: 40,
+      text: "yes"},
   { id: "Model (hidden)", 
       layer: "Development process", 
       x: 500, y: 200,
-      exit_x: 70, exit_y: 80},
+      exit_x: 70, exit_y: 80,
+      text: "no"},
   { id: "Model", 
       layer: "Development process", 
       x: 500, y: 200,
       exit_x: 0, exit_y: 40,
-      entry_x: 0, entry_y: 40},
+      entry_x: 0, entry_y: 40,
+      text: "yes"},
   { id: "Model output", 
       layer: "Development process", 
       x: 500, y: 350,
-      entry_x: 70, entry_y: 0},
+      entry_x: 70, entry_y: 0,
+      text: "yes"},
   { id: "AI System (hidden)", 
       layer: "Use case", 
       x: 700, y: 200,
       exit_x: 70, exit_y: 80,
-      entry_x: 70, entry_y: 0},
+      entry_x: 70, entry_y: 0,
+      text: "no"},
   { id: "AI System", 
       x: 700, y: 200,
       exit_x: 70, exit_y: 80,
-      entry_x: 0, entry_y: 40},
+      entry_x: 0, entry_y: 40,
+      text: "yes"},
   { id: "Operational data", 
       layer: "Use case", 
       x: 700, y: 50,
       exit_x: 70, exit_y: 80,
-      entry_x: 70, entry_y: 0 },
+      entry_x: 70, entry_y: 0,
+      text: "yes"},
   { id: "System output", 
       layer: "Use case", 
       x: 700, y: 350,
       exit_x: 70, exit_y: 80,
-      entry_x: 70, entry_y: 0 },
+      entry_x: 70, entry_y: 0,
+      text: "yes"},
   { id: "Decision or policy", 
       layer: "Use case", 
       x: 700, y: 500,
       exit_x: 0, exit_y: 0,
-      entry_x: 70, entry_y: 0 }
+      entry_x: 70, entry_y: 0,
+      text: "yes"},
 ];
 
 // Define links between nodes 
@@ -99,8 +109,7 @@ links.forEach(link => {
       .attr('orient', 'auto')
       .append('path')
       .attr('d', 'M0,-5L10,0L0,5')
-      .attr('fill', '#999');
-
+      .attr('fill', '#999')
 
     const zoom = d3.zoom()
       .scaleExtent([0.5, 2])
@@ -126,30 +135,6 @@ links.forEach(link => {
       .on('click', (event, d) => console.log('Clicked node:', d.id));
 
 
-  // // Function for databsase shape
-  // function drawDatabaseShape(svg, x, y, width = 60, height = 80) {
-  //   const rx = width / 2;
-  //   const ry = 10; // ellipse height
-
-  //   const pathData = `
-  //     M ${x - rx},${y}
-  //     A ${rx},${ry} 0 0,1 ${x + rx},${y}
-  //     V ${y + height - ry}
-  //     A ${rx},${ry} 0 0,1 ${x - rx},${y + height - ry}
-  //     Z
-  //   `;
-
-  //   svg.append("path")
-  //     .attr("d", pathData)
-  //     .attr("fill", "#cce5ff")
-  //     .attr("stroke", "#333")
-  //     .attr("stroke-width", 1);
-  // }
-
-  
-// const datasetNode = nodes.find(n => n.id === "Dataset");
-// drawDatabaseShape(svg, datasetNode.x, datasetNode.y);
-
 // Assign shapes for each node
 nodeGroup.each(function(d) {
   const group = d3.select(this);
@@ -160,18 +145,31 @@ nodeGroup.each(function(d) {
         .attr('width', 140)
         .attr('height', 80)
         .attr('rx', 10)
-        .attr('ry', 10);
+        .attr('ry', 10)
+        .attr('fill', "rgba(31, 118, 180, 1)");
       }
+    else {
+      group.append('rect') // Change to cylinder shape
+        .attr('width', 140)
+        .attr('height', 80)
+        .attr('rx', 10)
+        .attr('ry', 10)
+        .attr('fill', "rgba(202, 189, 2, 1)");
+    }
     });
 
 // Add text labels to nodes
-nodeGroup.append('text')
-  .attr('x', 70)
-  .attr('y', 45)
-  .attr('text-anchor', 'middle')
-  .text(d => d.id);
-
-
+nodeGroup.each(function(d) {
+  const group = d3.select(this);
+    if (d.text === "yes")  {  
+          group.append('text')
+            .attr('x', 70)
+            .attr('y', 45)
+            .attr('text-anchor', 'middle')
+            .text(d => d.id);
+   } 
+  });
+  
   }, 
   
   []);

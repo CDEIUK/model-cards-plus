@@ -11,8 +11,8 @@
       link: /mc+/background
     - label: 'The MC+ framework'
       link: /mc+/framework
-    - label: 'Test plot'
-      link: /mc+/test-plot
+    # - label: 'Test plot'
+    #   link: /mc+/test-plot
 
 - label: 'Getting started'
   items:
