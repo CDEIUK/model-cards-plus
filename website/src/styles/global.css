@@ -21,3 +21,16 @@ code.inline-code {
     padding: 1em;
   }
 }
+
+.boxed {
+    background: #ffffff00;
+    color: black;
+    border: 3px solid red;
+    margin: 30px auto;
+    width: 100%;
+    height: auto;
+    padding-top: 15px;
+    border-radius: 10px;
+    text-align: center;
+    font-style: italic;
+  }
