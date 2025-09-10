@@ -3,7 +3,7 @@
 - label: Home
   link: /
 
-- label: 'About'
+- label: 'Introduction'
   items:
     - label: 'What is MC+?'
       link: /mc+/what-is-mc+
@@ -11,21 +11,13 @@
       link: /mc+/background
     - label: 'The MC+ framework'
       link: /mc+/framework
-    - label: 'Who can use MC+?'
-      link: /mc+/who-can-use-mc+  
     # - label: 'Test plot'
     #   link: /mc+/test-plot
 
-
-- label: 'Using MC+'
+- label: 'Getting started'
   items:
-    - label: 'For developers'
-      link: /mc+/who-can-use-mc+/developers
-    - label: 'For researchers'
-      link: /mc+/who-can-use-mc+/researchers
-    - label: 'For policymakers'
-      link: /mc+/who-can-use-mc+/public
-    - label: 'For commercial' 
+    - label: 'Who can use MC+?'
+      link: /mc+/who-can-use-mc+    
     - label: 'What could MC+ offer me?'
       link: /mc+/what-could-mc+offer-me
     # - label: 'MC+ for policy'
@@ -38,17 +30,13 @@
 - label: 'Resources'
   items:
     - label: 'Dataset Card'
-      link: /mc+/dataset-card
     - label: 'Model Card'
     - label: 'System Card'
 
-- label: 'Further Information'
+- label: 'MC+ in context'
   items:
     - label: 'Example use'
       link: /mc+/example
-    - label: 'Contact'
-      link: /mc+/contact
-    - label: 'Acknowledgements'
 
 # - label: 'Getting Started'
 #   items: 
