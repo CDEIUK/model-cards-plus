@@ -1,0 +1,2087 @@
+/*! ../accessors.js */
+
+/*! ../array */
+
+/*! ../array.js */
+
+/*! ../ascending */
+
+/*! ../constant */
+
+/*! ../constant.js */
+
+/*! ../creator */
+
+/*! ../deviation */
+
+/*! ../interrupt.js */
+
+/*! ../matcher */
+
+/*! ../math.js */
+
+/*! ../namespace */
+
+/*! ../noop.js */
+
+/*! ../number */
+
+/*! ../number.js */
+
+/*! ../point.js */
+
+/*! ../pointRadial.js */
+
+/*! ../quantile */
+
+/*! ../selector */
+
+/*! ../selectorAll */
+
+/*! ../transition/index.js */
+
+/*! ../transition/schedule.js */
+
+/*! ../window */
+
+/*! ./BaseTree */
+
+/*! ./BoxedNodeSettings */
+
+/*! ./CircleNodeSettings */
+
+/*! ./CustomD3 */
+
+/*! ./LoadOnDemandSettings */
+
+/*! ./NodeSettings */
+
+/*! ./RESET */
+
+/*! ./accessors.js */
+
+/*! ./active.js */
+
+/*! ./ancestors.js */
+
+/*! ./appearance.js */
+
+/*! ./append */
+
+/*! ./arc.js */
+
+/*! ./area.js */
+
+/*! ./areaRadial.js */
+
+/*! ./array */
+
+/*! ./array.js */
+
+/*! ./ascending */
+
+/*! ./ascending.js */
+
+/*! ./assign */
+
+/*! ./attr */
+
+/*! ./attr.js */
+
+/*! ./attrTween.js */
+
+/*! ./attrize */
+
+/*! ./back.js */
+
+/*! ./basis.js */
+
+/*! ./basisClosed.js */
+
+/*! ./bisect */
+
+/*! ./bisector */
+
+/*! ./bounce.js */
+
+/*! ./call */
+
+/*! ./cardinal.js */
+
+/*! ./cardinalClosed.js */
+
+/*! ./cardinalOpen.js */
+
+/*! ./catmullRom.js */
+
+/*! ./circle.js */
+
+/*! ./classed */
+
+/*! ./clone */
+
+/*! ./cluster.js */
+
+/*! ./color.js */
+
+/*! ./combiningMarks */
+
+/*! ./constant */
+
+/*! ./constant.js */
+
+/*! ./count.js */
+
+/*! ./create */
+
+/*! ./creator */
+
+/*! ./cross */
+
+/*! ./cubehelix.js */
+
+/*! ./cubic.js */
+
+/*! ./curve/basis.js */
+
+/*! ./curve/basisClosed.js */
+
+/*! ./curve/basisOpen.js */
+
+/*! ./curve/bundle.js */
+
+/*! ./curve/cardinal.js */
+
+/*! ./curve/cardinalClosed.js */
+
+/*! ./curve/cardinalOpen.js */
+
+/*! ./curve/catmullRom.js */
+
+/*! ./curve/catmullRomClosed.js */
+
+/*! ./curve/catmullRomOpen.js */
+
+/*! ./curve/linear.js */
+
+/*! ./curve/linearClosed.js */
+
+/*! ./curve/monotone.js */
+
+/*! ./curve/natural.js */
+
+/*! ./curve/radial.js */
+
+/*! ./curve/step.js */
+
+/*! ./data */
+
+/*! ./date.js */
+
+/*! ./datum */
+
+/*! ./decompose.js */
+
+/*! ./define.js */
+
+/*! ./delay.js */
+
+/*! ./descendants.js */
+
+/*! ./descending */
+
+/*! ./descending.js */
+
+/*! ./deviation */
+
+/*! ./dice.js */
+
+/*! ./discrete.js */
+
+/*! ./dispatch */
+
+/*! ./dispatch.js */
+
+/*! ./drag.js */
+
+/*! ./duration.js */
+
+/*! ./each */
+
+/*! ./each.js */
+
+/*! ./eachAfter.js */
+
+/*! ./eachBefore.js */
+
+/*! ./ease.js */
+
+/*! ./elastic.js */
+
+/*! ./empty */
+
+/*! ./enclose.js */
+
+/*! ./end.js */
+
+/*! ./enter */
+
+/*! ./entries */
+
+/*! ./es-ES */
+
+/*! ./event.js */
+
+/*! ./exit */
+
+/*! ./exp.js */
+
+/*! ./extent */
+
+/*! ./filter */
+
+/*! ./filter.js */
+
+/*! ./findLocale */
+
+/*! ./fontExists */
+
+/*! ./hcl.js */
+
+/*! ./hierarchy/index.js */
+
+/*! ./histogram */
+
+/*! ./hsl.js */
+
+/*! ./html */
+
+/*! ./hue.js */
+
+/*! ./identity */
+
+/*! ./identity.js */
+
+/*! ./index */
+
+/*! ./index.js */
+
+/*! ./insert */
+
+/*! ./interpolate.js */
+
+/*! ./interrupt.js */
+
+/*! ./interval.js */
+
+/*! ./isObject */
+
+/*! ./join */
+
+/*! ./js/BoxedTree */
+
+/*! ./js/CircleTree */
+
+/*! ./keys */
+
+/*! ./lab.js */
+
+/*! ./leaves.js */
+
+/*! ./line.js */
+
+/*! ./lineRadial.js */
+
+/*! ./linear.js */
+
+/*! ./link/index.js */
+
+/*! ./links.js */
+
+/*! ./local */
+
+/*! ./locales/index */
+
+/*! ./lower */
+
+/*! ./map */
+
+/*! ./matcher */
+
+/*! ./math.js */
+
+/*! ./max */
+
+/*! ./mean */
+
+/*! ./median */
+
+/*! ./merge */
+
+/*! ./merge.js */
+
+/*! ./min */
+
+/*! ./mouse */
+
+/*! ./namespace */
+
+/*! ./namespaces */
+
+/*! ./nest */
+
+/*! ./node */
+
+/*! ./nodes */
+
+/*! ./nodrag.js */
+
+/*! ./noevent.js */
+
+/*! ./none.js */
+
+/*! ./number */
+
+/*! ./number.js */
+
+/*! ./numberArray.js */
+
+/*! ./object.js */
+
+/*! ./offset/diverging.js */
+
+/*! ./offset/expand.js */
+
+/*! ./offset/none.js */
+
+/*! ./offset/silhouette.js */
+
+/*! ./offset/wiggle.js */
+
+/*! ./on */
+
+/*! ./on.js */
+
+/*! ./order */
+
+/*! ./order/appearance.js */
+
+/*! ./order/ascending.js */
+
+/*! ./order/descending.js */
+
+/*! ./order/insideOut.js */
+
+/*! ./order/none.js */
+
+/*! ./order/reverse.js */
+
+/*! ./pack/enclose.js */
+
+/*! ./pack/index.js */
+
+/*! ./pack/siblings.js */
+
+/*! ./pairs */
+
+/*! ./parse.js */
+
+/*! ./partition.js */
+
+/*! ./path.js */
+
+/*! ./permute */
+
+/*! ./pie.js */
+
+/*! ./piecewise.js */
+
+/*! ./point */
+
+/*! ./point.js */
+
+/*! ./pointRadial.js */
+
+/*! ./poly.js */
+
+/*! ./property */
+
+/*! ./quad.js */
+
+/*! ./quantile */
+
+/*! ./quantize.js */
+
+/*! ./raise */
+
+/*! ./range */
+
+/*! ./remove */
+
+/*! ./remove.js */
+
+/*! ./rgb.js */
+
+/*! ./round.js */
+
+/*! ./rtl */
+
+/*! ./scan */
+
+/*! ./schedule.js */
+
+/*! ./select */
+
+/*! ./select.js */
+
+/*! ./selectAll */
+
+/*! ./selectAll.js */
+
+/*! ./selection.js */
+
+/*! ./selection/index */
+
+/*! ./selection/index.js */
+
+/*! ./selection/on */
+
+/*! ./selection/style */
+
+/*! ./selector */
+
+/*! ./selectorAll */
+
+/*! ./set */
+
+/*! ./shuffle */
+
+/*! ./siblings.js */
+
+/*! ./sin.js */
+
+/*! ./size */
+
+/*! ./slice.js */
+
+/*! ./sort */
+
+/*! ./sort.js */
+
+/*! ./sourceEvent */
+
+/*! ./sparse */
+
+/*! ./squarify.js */
+
+/*! ./src/BaseClass */
+
+/*! ./src/RESET */
+
+/*! ./src/TextBox */
+
+/*! ./src/accessor */
+
+/*! ./src/assign */
+
+/*! ./src/attrize */
+
+/*! ./src/closest */
+
+/*! ./src/configPrep */
+
+/*! ./src/constant */
+
+/*! ./src/elem */
+
+/*! ./src/findLocale */
+
+/*! ./src/fontExists */
+
+/*! ./src/isObject */
+
+/*! ./src/merge */
+
+/*! ./src/parseSides */
+
+/*! ./src/prefix */
+
+/*! ./src/rtl */
+
+/*! ./src/stringify */
+
+/*! ./src/strip */
+
+/*! ./src/stylize */
+
+/*! ./src/textSplit */
+
+/*! ./src/textWidth */
+
+/*! ./src/textWrap */
+
+/*! ./src/titleCase */
+
+/*! ./src/trim */
+
+/*! ./src/unique */
+
+/*! ./src/uuid */
+
+/*! ./stack.js */
+
+/*! ./stratify.js */
+
+/*! ./string.js */
+
+/*! ./stringify */
+
+/*! ./strip */
+
+/*! ./style */
+
+/*! ./style.js */
+
+/*! ./styleTween.js */
+
+/*! ./sum */
+
+/*! ./sum.js */
+
+/*! ./symbol.js */
+
+/*! ./symbol/circle.js */
+
+/*! ./symbol/cross.js */
+
+/*! ./symbol/diamond.js */
+
+/*! ./symbol/square.js */
+
+/*! ./symbol/star.js */
+
+/*! ./symbol/triangle.js */
+
+/*! ./symbol/wye.js */
+
+/*! ./text */
+
+/*! ./text.js */
+
+/*! ./textSplit */
+
+/*! ./textTween.js */
+
+/*! ./textWidth */
+
+/*! ./textWrap */
+
+/*! ./threshold/freedmanDiaconis */
+
+/*! ./threshold/scott */
+
+/*! ./threshold/sturges */
+
+/*! ./ticks */
+
+/*! ./timeout.js */
+
+/*! ./timer.js */
+
+/*! ./touch */
+
+/*! ./touches */
+
+/*! ./transform.js */
+
+/*! ./transform/index.js */
+
+/*! ./transition.js */
+
+/*! ./transition/index.js */
+
+/*! ./transition/schedule.js */
+
+/*! ./transpose */
+
+/*! ./tree.js */
+
+/*! ./treemap/binary.js */
+
+/*! ./treemap/dice.js */
+
+/*! ./treemap/index.js */
+
+/*! ./treemap/resquarify.js */
+
+/*! ./treemap/round.js */
+
+/*! ./treemap/slice.js */
+
+/*! ./treemap/sliceDice.js */
+
+/*! ./treemap/squarify.js */
+
+/*! ./trim */
+
+/*! ./tween.js */
+
+/*! ./unique */
+
+/*! ./uuid */
+
+/*! ./value.js */
+
+/*! ./values */
+
+/*! ./variance */
+
+/*! ./window */
+
+/*! ./zip */
+
+/*! ./zoom.js */
+
+/*! d3-array */
+
+/*! d3-collection */
+
+/*! d3-color */
+
+/*! d3-dispatch */
+
+/*! d3-drag */
+
+/*! d3-ease */
+
+/*! d3-hierarchy */
+
+/*! d3-interpolate */
+
+/*! d3-path */
+
+/*! d3-selection */
+
+/*! d3-shape */
+
+/*! d3-timer */
+
+/*! d3-transition */
+
+/*! d3-zoom */
+
+/*! d3plus-common */
+
+/*! d3plus-text */
+
+/*! events */
+
+/*! exports provided: Abkhazian, Achinese, Acoli, Adangme, Adygei, Adyghe, Afar, Afrihili, Afrikaans, Afro-Asiatic languages, Ainu, Akan, Akkadian, Albanian, Alemannic, Aleut, Algonquian languages, Alsatian, Altaic languages, Amharic, Angika, Apache languages, Arabic, Aragonese, Arapaho, Arawak, Armenian, Aromanian, Artificial languages, Arumanian, Assamese, Asturian, Asturleonese, Athapascan languages, Australian languages, Austronesian languages, Avaric, Avestan, Awadhi, Aymara, Azerbaijani, Bable, Balinese, Baltic languages, Baluchi, Bambara, Bamileke languages, Banda languages, Bantu languages, Basa, Bashkir, Basque, Batak languages, Bedawiyet, Beja, Belarusian, Bemba, Bengali, Berber languages, Bhojpuri, Bihari languages, Bikol, Bilin, Bini, Bislama, Blin, Bliss, Blissymbolics, Blissymbols, Bokmål, Norwegian, Bosnian, Braj, Breton, Buginese, Bulgarian, Buriat, Burmese, Caddo, Castilian, Catalan, Caucasian languages, Cebuano, Celtic languages, Central American Indian languages, Central Khmer, Chagatai, Chamic languages, Chamorro, Chechen, Cherokee, Chewa, Cheyenne, Chibcha, Chichewa, Chinese, Chinook jargon, Chipewyan, Choctaw, Chuang, Church Slavic, Church Slavonic, Chuukese, Chuvash, Classical Nepal Bhasa, Classical Newari, Classical Syriac, Cook Islands Maori, Coptic, Cornish, Corsican, Cree, Creek, Creoles and pidgins, Creoles and pidgins, English based, Creoles and pidgins, French-based, Creoles and pidgins, Portuguese-based, Crimean Tatar, Crimean Turkish, Croatian, Cushitic languages, Czech, Dakota, Danish, Dargwa, Delaware, Dene Suline, Dhivehi, Dimili, Dimli, Dinka, Divehi, Dogri, Dogrib, Dravidian languages, Duala, Dutch, Dutch, Middle (ca.1050-1350), Dyula, Dzongkha, Eastern Frisian, Edo, Efik, Egyptian (Ancient), Ekajuk, Elamite, English, English, Middle (1100-1500), English, Old (ca.450-1100), Erzya, Esperanto, Estonian, Ewe, Ewondo, Fang, Fanti, Faroese, Fijian, Filipino, Finnish, Finno-Ugrian languages, Flemish, Fon, French, French, Middle (ca.1400-1600), French, Old (842-ca.1400), Friulian, Fulah, Ga, Gaelic, Galibi Carib, Galician, Ganda, Gayo, Gbaya, Geez, Georgian, German, German, Low, German, Middle High (ca.1050-1500), German, Old High (ca.750-1050), Germanic languages, Gikuyu, Gilbertese, Gondi, Gorontalo, Gothic, Grebo, Greek, Ancient (to 1453), Greek, Modern (1453-), Greenlandic, Guarani, Gujarati, Gwich'in, Haida, Haitian, Haitian Creole, Hausa, Hawaiian, Hebrew, Herero, Hiligaynon, Himachali languages, Hindi, Hiri Motu, Hittite, Hmong, Hungarian, Hupa, Iban, Icelandic, Ido, Igbo, Ijo languages, Iloko, Imperial Aramaic (700-300 BCE), Inari Sami, Indic languages, Indo-European languages, Indonesian, Ingush, Interlingua (International Auxiliary Language Association), Interlingue, Inuktitut, Inupiaq, Iranian languages, Irish, Irish, Middle (900-1200), Irish, Old (to 900), Iroquoian languages, Italian, Japanese, Javanese, Jingpho, Judeo-Arabic, Judeo-Persian, Kabardian, Kabyle, Kachin, Kalaallisut, Kalmyk, Kamba, Kannada, Kanuri, Kapampangan, Kara-Kalpak, Karachay-Balkar, Karelian, Karen languages, Kashmiri, Kashubian, Kawi, Kazakh, Khasi, Khoisan languages, Khotanese, Kikuyu, Kimbundu, Kinyarwanda, Kirdki, Kirghiz, Kirmanjki, Klingon, Komi, Kongo, Konkani, Korean, Kosraean, Kpelle, Kru languages, Kuanyama, Kumyk, Kurdish, Kurukh, Kutenai, Kwanyama, Kyrgyz, Ladino, Lahnda, Lamba, Land Dayak languages, Lao, Latin, Latvian, Leonese, Letzeburgesch, Lezghian, Limburgan, Limburger, Limburgish, Lingala, Lithuanian, Lojban, Low German, Low Saxon, Lower Sorbian, Lozi, Luba-Katanga, Luba-Lulua, Luiseno, Lule Sami, Lunda, Luo (Kenya and Tanzania), Lushai, Luxembourgish, Macedo-Romanian, Macedonian, Madurese, Magahi, Maithili, Makasar, Malagasy, Malay, Malayalam, Maldivian, Maltese, Manchu, Mandar, Mandingo, Manipuri, Manobo languages, Manx, Maori, Mapuche, Mapudungun, Marathi, Mari, Marshallese, Marwari, Masai, Mayan languages, Mende, Mi'kmaq, Micmac, Minangkabau, Mirandese, Mohawk, Moksha, Moldavian, Moldovan, Mon-Khmer languages, Mong, Mongo, Mongolian, Montenegrin, Mossi, Multiple languages, Munda languages, N'Ko, Nahuatl languages, Nauru, Navaho, Navajo, Ndebele, North, Ndebele, South, Ndonga, Neapolitan, Nepal Bhasa, Nepali, Newari, Nias, Niger-Kordofanian languages, Nilo-Saharan languages, Niuean, No linguistic content, Nogai, Norse, Old, North American Indian languages, North Ndebele, Northern Frisian, Northern Sami, Northern Sotho, Norwegian, Norwegian Bokmål, Norwegian Nynorsk, Not applicable, Nubian languages, Nuosu, Nyamwezi, Nyanja, Nyankole, Nynorsk, Norwegian, Nyoro, Nzima, Occidental, Occitan (post 1500), Occitan, Old (to 1500), Official Aramaic (700-300 BCE), Oirat, Ojibwa, Old Bulgarian, Old Church Slavonic, Old Newari, Old Slavonic, Oriya, Oromo, Osage, Ossetian, Ossetic, Otomian languages, Pahlavi, Palauan, Pali, Pampanga, Pangasinan, Panjabi, Papiamento, Papuan languages, Pashto, Pedi, Persian, Persian, Old (ca.600-400 B.C.), Philippine languages, Phoenician, Pilipino, Pohnpeian, Polish, Portuguese, Prakrit languages, Provençal, Old (to 1500), Punjabi, Pushto, Quechua, Rajasthani, Rapanui, Rarotongan, Reserved for local use, Romance languages, Romanian, Romansh, Romany, Rundi, Russian, Sakan, Salishan languages, Samaritan Aramaic, Sami languages, Samoan, Sandawe, Sango, Sanskrit, Santali, Sardinian, Sasak, Saxon, Low, Scots, Scottish Gaelic, Selkup, Semitic languages, Sepedi, Serbian, Serer, Shan, Shona, Sichuan Yi, Sicilian, Sidamo, Sign Languages, Siksika, Sindhi, Sinhala, Sinhalese, Sino-Tibetan languages, Siouan languages, Skolt Sami, Slave (Athapascan), Slavic languages, Slovak, Slovenian, Sogdian, Somali, Songhai languages, Soninke, Sorbian languages, Sotho, Northern, Sotho, Southern, South American Indian languages, South Ndebele, Southern Altai, Southern Sami, Spanish, Sranan Tongo, Standard Moroccan Tamazight, Sukuma, Sumerian, Sundanese, Susu, Swahili, Swati, Swedish, Swiss German, Syriac, Tagalog, Tahitian, Tai languages, Tajik, Tamashek, Tamil, Tatar, Telugu, Tereno, Tetum, Thai, Tibetan, Tigre, Tigrinya, Timne, Tiv, tlhIngan-Hol, Tlingit, Tok Pisin, Tokelau, Tonga (Nyasa), Tonga (Tonga Islands), Tsimshian, Tsonga, Tswana, Tumbuka, Tupi languages, Turkish, Turkish, Ottoman (1500-1928), Turkmen, Tuvalu, Tuvinian, Twi, Udmurt, Ugaritic, Uighur, Ukrainian, Umbundu, Uncoded languages, Undetermined, Upper Sorbian, Urdu, Uyghur, Uzbek, Vai, Valencian, Venda, Vietnamese, Volapük, Votic, Wakashan languages, Walloon, Waray, Washo, Welsh, Western Frisian, Western Pahari languages, Wolaitta, Wolaytta, Wolof, Xhosa, Yakut, Yao, Yapese, Yiddish, Yoruba, Yupik languages, Zande languages, Zapotec, Zaza, Zazaki, Zenaga, Zhuang, Zulu, Zuni, default */
+
+/*! exports provided: CREATED, SCHEDULED, STARTING, STARTED, RUNNING, ENDING, ENDED, default, init, set, get */
+
+/*! exports provided: CardinalClosed, default */
+
+/*! exports provided: CardinalOpen, default */
+
+/*! exports provided: Color, darker, brighter, default, rgbConvert, rgb, Rgb, hslConvert, hsl */
+
+/*! exports provided: Transform, identity, default */
+
+/*! exports provided: Transition, default, newId */
+
+/*! exports provided: aa, aa-dj, aa-er, aa-et, af, af-na, af-za, agq, agq-cm, ak, ak-gh, sq, sq-al, sq-mk, gsw, gsw-fr, gsw-li, gsw-ch, am, am-et, ar, ar-dz, ar-bh, ar-td, ar-km, ar-dj, ar-eg, ar-er, ar-iq, ar-il, ar-jo, ar-kw, ar-lb, ar-ly, ar-mr, ar-ma, ar-om, ar-ps, ar-qa, ar-sa, ar-so, ar-ss, ar-sd, ar-sy, ar-tn, ar-ae, ar-001, ar-ye, hy, hy-am, as, as-in, ast, ast-es, asa, asa-tz, az-cyrl, az-cyrl-az, az, az-latn, az-latn-az, ksf, ksf-cm, bm, bm-latn-ml, bn, bn-bd, bn-in, bas, bas-cm, ba, ba-ru, eu, eu-es, be, be-by, bem, bem-zm, bez, bez-tz, byn, byn-er, brx, brx-in, bs-cyrl, bs-cyrl-ba, bs-latn, bs, bs-latn-ba, br, br-fr, bg, bg-bg, my, my-mm, ca, ca-ad, ca-fr, ca-it, ca-es, tzm-latn-, ku, ku-arab, ku-arab-iq, cd-ru, chr, chr-cher, chr-cher-us, cgg, cgg-ug, zh-hans, zh, zh-cn, zh-sg, zh-hant, zh-hk, zh-mo, zh-tw, cu-ru, swc, swc-cd, kw, kw-gb, co, co-fr, hr,, hr-hr, hr-ba, cs, cs-cz, da, da-dk, da-gl, prs, prs-af, dv, dv-mv, dua, dua-cm, nl, nl-aw, nl-be, nl-bq, nl-cw, nl-nl, nl-sx, nl-sr, dz, dz-bt, ebu, ebu-ke, en, en-as, en-ai, en-ag, en-au, en-at, en-bs, en-bb, en-be, en-bz, en-bm, en-bw, en-io, en-vg, en-bi, en-cm, en-ca, en-029, en-ky, en-cx, en-cc, en-ck, en-cy, en-dk, en-dm, en-er, en-150, en-fk, en-fi, en-fj, en-gm, en-de, en-gh, en-gi, en-gd, en-gu, en-gg, en-gy, en-hk, en-in, en-ie, en-im, en-il, en-jm, en-je, en-ke, en-ki, en-ls, en-lr, en-mo, en-mg, en-mw, en-my, en-mt, en-mh, en-mu, en-fm, en-ms, en-na, en-nr, en-nl, en-nz, en-ng, en-nu, en-nf, en-mp, en-pk, en-pw, en-pg, en-pn, en-pr, en-ph, en-rw, en-kn, en-lc, en-vc, en-ws, en-sc, en-sl, en-sg, en-sx, en-si, en-sb, en-za, en-ss, en-sh, en-sd, en-sz, en-se, en-ch, en-tz, en-tk, en-to, en-tt, en-tc, en-tv, en-ug, en-gb, en-us, en-um, en-vi, en-vu, en-001, en-zm, en-zw, eo, eo-001, et, et-ee, ee, ee-gh, ee-tg, ewo, ewo-cm, fo, fo-dk, fo-fo, fil, fil-ph, fi, fi-fi, fr, fr-dz, fr-be, fr-bj, fr-bf, fr-bi, fr-cm, fr-ca, fr-cf, fr-td, fr-km, fr-cg, fr-cd, fr-ci, fr-dj, fr-gq, fr-fr, fr-gf, fr-pf, fr-ga, fr-gp, fr-gn, fr-ht, fr-lu, fr-mg, fr-ml, fr-mq, fr-mr, fr-mu, fr-yt, fr-ma, fr-nc, fr-ne, fr-mc, fr-re, fr-rw, fr-bl, fr-mf, fr-pm, fr-sn, fr-sc, fr-ch, fr-sy, fr-tg, fr-tn, fr-vu, fr-wf, fy, fy-nl, fur, fur-it, ff, ff-latn, ff-latn-bf, ff-cm, ff-latn-cm, ff-latn-gm, ff-latn-gh, ff-gn, ff-latn-gn, ff-latn-gw, ff-latn-lr, ff-mr, ff-latn-mr, ff-latn-ne, ff-ng, ff-latn-ng, ff-latn-sn, ff-latn-sl, gl, gl-es, lg, lg-ug, ka, ka-ge, de, de-at, de-be, de-de, de-it, de-li, de-lu, de-ch, el, el-cy, el-gr, kl, kl-gl, gn, gn-py, gu, gu-in, guz, guz-ke, ha, ha-latn, ha-latn-gh, ha-latn-ne, ha-latn-ng, haw, haw-us, he, he-il, hi, hi-in, hu, hu-hu, is, is-is, ig, ig-ng, id, id-id, ia, ia-fr, ia-001, iu, iu-latn, iu-latn-ca, iu-cans, iu-cans-ca, ga, ga-ie, it, it-it, it-sm, it-ch, it-va, ja, ja-jp, jv, jv-latn, jv-latn-id, dyo, dyo-sn, kea, kea-cv, kab, kab-dz, kkj, kkj-cm, kln, kln-ke, kam, kam-ke, kn, kn-in, ks, ks-arab, ks-arab-in, kk, kk-kz, km, km-kh, quc, quc-latn-gt, ki, ki-ke, rw, rw-rw, sw, sw-ke, sw-tz, sw-ug, kok, kok-in, ko, ko-kr, ko-kp, khq, khq-ml, ses, ses-ml, nmg, nmg-cm, ky, ky-kg, ku-arab-ir, lkt, lkt-us, lag, lag-tz, lo, lo-la, lv, lv-lv, ln, ln-ao, ln-cf, ln-cg, ln-cd, lt, lt-lt, nds, nds-de, nds-nl, dsb, dsb-de, lu, lu-cd, luo, luo-ke, lb, lb-lu, luy, luy-ke, mk, mk-mk, jmc, jmc-tz, mgh, mgh-mz, kde, kde-tz, mg, mg-mg, ms, ms-bn, ms-my, ml, ml-in, mt, mt-mt, gv, gv-im, mi, mi-nz, arn, arn-cl, mr, mr-in, mas, mas-ke, mas-tz, mzn-ir, mer, mer-ke, mgo, mgo-cm, moh, moh-ca, mn, mn-cyrl, mn-mn, mn-mong, mn-mong-, mfe, mfe-mu, mua, mua-cm, nqo, nqo-gn, naq, naq-na, ne, ne-in, ne-np, nnh, nnh-cm, jgo, jgo-cm, lrc-iq, lrc-ir, nd, nd-zw, no, nb, nb-no, nn, nn-no, nb-sj, nus, nus-sd, nus-ss, nyn, nyn-ug, oc, oc-fr, or, or-in, om, om-et, om-ke, os, os-ge, os-ru, ps, ps-af, fa, fa-af, fa-ir, pl, pl-pl, pt, pt-ao, pt-br, pt-cv, pt-gq, pt-gw, pt-lu, pt-mo, pt-mz, pt-pt, pt-st, pt-ch, pt-tl, prg-001, qps-ploca, qps-ploc, qps-plocm, pa, pa-arab, pa-in, pa-arab-pk, quz, quz-bo, quz-ec, quz-pe, ksh, ksh-de, ro, ro-md, ro-ro, rm, rm-ch, rof, rof-tz, rn, rn-bi, ru, ru-by, ru-kz, ru-kg, ru-md, ru-ru, ru-ua, rwk, rwk-tz, ssy, ssy-er, sah, sah-ru, saq, saq-ke, smn, smn-fi, smj, smj-no, smj-se, se, se-fi, se-no, se-se, sms, sms-fi, sma, sma-no, sma-se, sg, sg-cf, sbp, sbp-tz, sa, sa-in, gd, gd-gb, seh, seh-mz, sr-cyrl, sr-cyrl-ba, sr-cyrl-me, sr-cyrl-rs, sr-cyrl-cs, sr-latn, sr, sr-latn-ba, sr-latn-me, sr-latn-rs, sr-latn-cs, nso, nso-za, tn, tn-bw, tn-za, ksb, ksb-tz, sn, sn-latn, sn-latn-zw, sd, sd-arab, sd-arab-pk, si, si-lk, sk, sk-sk, sl, sl-si, xog, xog-ug, so, so-dj, so-et, so-ke, so-so, st, st-za, nr, nr-za, st-ls, es, es-ar, es-bz, es-ve, es-bo, es-br, es-cl, es-co, es-cr, es-cu, es-do, es-ec, es-sv, es-gq, es-gt, es-hn, es-419, es-mx, es-ni, es-pa, es-py, es-pe, es-ph, es-pr, es-es_tradnl, es-es, es-us, es-uy, zgh, zgh-tfng-ma, zgh-tfng, ss, ss-za, ss-sz, sv, sv-ax, sv-fi, sv-se, syr, syr-sy, shi, shi-tfng, shi-tfng-ma, shi-latn, shi-latn-ma, dav, dav-ke, tg, tg-cyrl, tg-cyrl-tj, tzm, tzm-latn, tzm-latn-dz, ta, ta-in, ta-my, ta-sg, ta-lk, twq, twq-ne, tt, tt-ru, te, te-in, teo, teo-ke, teo-ug, th, th-th, bo, bo-in, bo-cn, tig, tig-er, ti, ti-er, ti-et, to, to-to, ts, ts-za, tr, tr-cy, tr-tr, tk, tk-tm, uk, uk-ua, hsb, hsb-de, ur, ur-in, ur-pk, ug, ug-cn, uz-arab, uz-arab-af, uz-cyrl, uz-cyrl-uz, uz, uz-latn, uz-latn-uz, vai, vai-vaii, vai-vaii-lr, vai-latn-lr, vai-latn, ca-es-, ve, ve-za, vi, vi-vn, vo, vo-001, vun, vun-tz, wae, wae-ch, cy, cy-gb, wal, wal-et, wo, wo-sn, xh, xh-za, yav, yav-cm, ii, ii-cn, yo, yo-bj, yo-ng, dje, dje-ne, zu, zu-za, default */
+
+/*! exports provided: abs, atan2, cos, max, min, sin, sqrt, epsilon, pi, halfPi, tau, acos, asin */
+
+/*! exports provided: accessor, assign, attrize, BaseClass, closest, configPrep, constant, elem, findLocale, isObject, merge, parseSides, prefix, RESET, stylize, unique, uuid */
+
+/*! exports provided: arc, area, line, pie, areaRadial, radialArea, lineRadial, radialLine, pointRadial, linkHorizontal, linkVertical, linkRadial, symbol, symbols, symbolCircle, symbolCross, symbolDiamond, symbolSquare, symbolStar, symbolTriangle, symbolWye, curveBasisClosed, curveBasisOpen, curveBasis, curveBundle, curveCardinalClosed, curveCardinalOpen, curveCardinal, curveCatmullRomClosed, curveCatmullRomOpen, curveCatmullRom, curveLinearClosed, curveLinear, curveMonotoneX, curveMonotoneY, curveNatural, curveStep, curveStepAfter, curveStepBefore, stack, stackOffsetExpand, stackOffsetDiverging, stackOffsetNone, stackOffsetSilhouette, stackOffsetWiggle, stackOrderAppearance, stackOrderAscending, stackOrderDescending, stackOrderInsideOut, stackOrderNone, stackOrderReverse */
+
+/*! exports provided: backIn, backOut, backInOut */
+
+/*! exports provided: basis, default */
+
+/*! exports provided: bisect, bisectRight, bisectLeft, ascending, bisector, cross, descending, deviation, extent, histogram, thresholdFreedmanDiaconis, thresholdScott, thresholdSturges, max, mean, median, merge, min, pairs, permute, quantile, range, scan, shuffle, sum, ticks, tickIncrement, tickStep, transpose, variance, zip */
+
+/*! exports provided: bisectRight, bisectLeft, default */
+
+/*! exports provided: bounceIn, bounceOut, bounceInOut */
+
+/*! exports provided: circleIn, circleOut, circleInOut */
+
+/*! exports provided: cluster, hierarchy, pack, packSiblings, packEnclose, partition, stratify, tree, treemap, treemapBinary, treemapDice, treemapSlice, treemapSliceDice, treemapSquarify, treemapResquarify */
+
+/*! exports provided: color, rgb, hsl, lab, hcl, lch, gray, cubehelix */
+
+/*! exports provided: constantZero, default */
+
+/*! exports provided: create, creator, local, matcher, mouse, namespace, namespaces, clientPoint, select, selectAll, selection, selector, selectorAll, style, touch, touches, window, event, customEvent */
+
+/*! exports provided: cubicIn, cubicOut, cubicInOut */
+
+/*! exports provided: curveRadialLinear, default */
+
+/*! exports provided: default */
+
+/*! exports provided: default, Cubehelix */
+
+/*! exports provided: default, EnterNode */
+
+/*! exports provided: default, computeHeight, Node */
+
+/*! exports provided: default, cubehelixLong */
+
+/*! exports provided: default, extend */
+
+/*! exports provided: default, genericArray */
+
+/*! exports provided: default, hclLong */
+
+/*! exports provided: default, hslLong */
+
+/*! exports provided: default, isNumberArray */
+
+/*! exports provided: default, pair */
+
+/*! exports provided: default, prefixChars, splitChars, splitWords, suffixChars */
+
+/*! exports provided: default, rgbBasis, rgbBasisClosed */
+
+/*! exports provided: default, stepBefore, stepAfter */
+
+/*! exports provided: default, styleValue */
+
+/*! exports provided: default, sum */
+
+/*! exports provided: default, tickIncrement, tickStep */
+
+/*! exports provided: default, tweenValue */
+
+/*! exports provided: default, yesdrag */
+
+/*! exports provided: deg2rad, rad2deg */
+
+/*! exports provided: dispatch */
+
+/*! exports provided: drag, dragDisable, dragEnable */
+
+/*! exports provided: easeLinear, easeQuad, easeQuadIn, easeQuadOut, easeQuadInOut, easeCubic, easeCubicIn, easeCubicOut, easeCubicInOut, easePoly, easePolyIn, easePolyOut, easePolyInOut, easeSin, easeSinIn, easeSinOut, easeSinInOut, easeExp, easeExpIn, easeExpOut, easeExpInOut, easeCircle, easeCircleIn, easeCircleOut, easeCircleInOut, easeBounce, easeBounceIn, easeBounceOut, easeBounceInOut, easeBack, easeBackIn, easeBackOut, easeBackInOut, easeElastic, easeElasticIn, easeElasticOut, easeElasticInOut */
+
+/*! exports provided: elasticIn, elasticOut, elasticInOut */
+
+/*! exports provided: event, default, customEvent */
+
+/*! exports provided: expIn, expOut, expInOut */
+
+/*! exports provided: fontExists, rtl, stringify, strip, TextBox, textSplit, textWidth, textWrap, titleCase, trim, trimLeft, trimRight */
+
+/*! exports provided: gray, default, Lab, lch, hcl, Hcl */
+
+/*! exports provided: hue, gamma, default */
+
+/*! exports provided: identity, default */
+
+/*! exports provided: interpolate, interpolateArray, interpolateBasis, interpolateBasisClosed, interpolateDate, interpolateDiscrete, interpolateHue, interpolateNumber, interpolateNumberArray, interpolateObject, interpolateRound, interpolateString, interpolateTransformCss, interpolateTransformSvg, interpolateZoom, interpolateRgb, interpolateRgbBasis, interpolateRgbBasisClosed, interpolateHsl, interpolateHslLong, interpolateLab, interpolateHcl, interpolateHclLong, interpolateCubehelix, interpolateCubehelixLong, piecewise, quantize */
+
+/*! exports provided: interpolateTransformCss, interpolateTransformSvg */
+
+/*! exports provided: lineRadial, default */
+
+/*! exports provided: linear */
+
+/*! exports provided: linkHorizontal, linkVertical, linkRadial */
+
+/*! exports provided: monotoneX, monotoneY */
+
+/*! exports provided: nest, set, map, keys, values, entries */
+
+/*! exports provided: nopropagation, default */
+
+/*! exports provided: now, Timer, timer, timerFlush */
+
+/*! exports provided: now, timer, timerFlush, timeout, interval */
+
+/*! exports provided: optional, required */
+
+/*! exports provided: packEnclose, default */
+
+/*! exports provided: parseCss, parseSvg */
+
+/*! exports provided: path */
+
+/*! exports provided: phi, squarifyRatio, default */
+
+/*! exports provided: point, Basis, default */
+
+/*! exports provided: point, Cardinal, default */
+
+/*! exports provided: point, default */
+
+/*! exports provided: polyIn, polyOut, polyInOut */
+
+/*! exports provided: prefix, default */
+
+/*! exports provided: quadIn, quadOut, quadInOut */
+
+/*! exports provided: root, Selection, default */
+
+/*! exports provided: sinIn, sinOut, sinInOut */
+
+/*! exports provided: slice */
+
+/*! exports provided: slice, map */
+
+/*! exports provided: slice, shuffle */
+
+/*! exports provided: symbols, default */
+
+/*! exports provided: transition, active, interrupt */
+
+/*! exports provided: trim, trimLeft, trimRight */
+
+/*! exports provided: x, y */
+
+/*! exports provided: xhtml, default */
+
+/*! exports provided: zoom, zoomTransform, zoomIdentity */
+
+/*! iso639-codes */
+
+/*! no exports provided */
+
+/*! no static exports found */
+
+/*! windows-locale */
+
+/*!**********************!*\
+  !*** ./src/index.js ***!
+  \**********************/
+
+/*!*************************!*\
+  !*** external "events" ***!
+  \*************************/
+
+/*!****************************!*\
+  !*** ./src/js/BaseTree.js ***!
+  \****************************/
+
+/*!****************************!*\
+  !*** ./src/js/CustomD3.js ***!
+  \****************************/
+
+/*!*****************************!*\
+  !*** ./src/js/BoxedTree.js ***!
+  \*****************************/
+
+/*!******************************!*\
+  !*** ./src/js/CircleTree.js ***!
+  \******************************/
+
+/*!********************************!*\
+  !*** ./src/js/NodeSettings.js ***!
+  \********************************/
+
+/*!*************************************!*\
+  !*** ./src/js/BoxedNodeSettings.js ***!
+  \*************************************/
+
+/*!**************************************!*\
+  !*** ./src/js/CircleNodeSettings.js ***!
+  \**************************************/
+
+/*!****************************************!*\
+  !*** ./src/js/LoadOnDemandSettings.js ***!
+  \****************************************/
+
+/*!*****************************************!*\
+  !*** ./node_modules/d3-ease/src/exp.js ***!
+  \*****************************************/
+
+/*!*****************************************!*\
+  !*** ./node_modules/d3-ease/src/sin.js ***!
+  \*****************************************/
+
+/*!******************************************!*\
+  !*** ./node_modules/d3-array/src/max.js ***!
+  \******************************************/
+
+/*!******************************************!*\
+  !*** ./node_modules/d3-array/src/min.js ***!
+  \******************************************/
+
+/*!******************************************!*\
+  !*** ./node_modules/d3-array/src/sum.js ***!
+  \******************************************/
+
+/*!******************************************!*\
+  !*** ./node_modules/d3-array/src/zip.js ***!
+  \******************************************/
+
+/*!******************************************!*\
+  !*** ./node_modules/d3-color/src/lab.js ***!
+  \******************************************/
+
+/*!******************************************!*\
+  !*** ./node_modules/d3-drag/src/drag.js ***!
+  \******************************************/
+
+/*!******************************************!*\
+  !*** ./node_modules/d3-ease/src/back.js ***!
+  \******************************************/
+
+/*!******************************************!*\
+  !*** ./node_modules/d3-ease/src/poly.js ***!
+  \******************************************/
+
+/*!******************************************!*\
+  !*** ./node_modules/d3-ease/src/quad.js ***!
+  \******************************************/
+
+/*!******************************************!*\
+  !*** ./node_modules/d3-path/src/path.js ***!
+  \******************************************/
+
+/*!******************************************!*\
+  !*** ./node_modules/d3-shape/src/arc.js ***!
+  \******************************************/
+
+/*!******************************************!*\
+  !*** ./node_modules/d3-shape/src/pie.js ***!
+  \******************************************/
+
+/*!******************************************!*\
+  !*** ./node_modules/d3-zoom/src/zoom.js ***!
+  \******************************************/
+
+/*!*******************************************!*\
+  !*** ./node_modules/d3-array/src/mean.js ***!
+  \*******************************************/
+
+/*!*******************************************!*\
+  !*** ./node_modules/d3-array/src/scan.js ***!
+  \*******************************************/
+
+/*!*******************************************!*\
+  !*** ./node_modules/d3-color/src/math.js ***!
+  \*******************************************/
+
+/*!*******************************************!*\
+  !*** ./node_modules/d3-drag/src/event.js ***!
+  \*******************************************/
+
+/*!*******************************************!*\
+  !*** ./node_modules/d3-drag/src/index.js ***!
+  \*******************************************/
+
+/*!*******************************************!*\
+  !*** ./node_modules/d3-ease/src/cubic.js ***!
+  \*******************************************/
+
+/*!*******************************************!*\
+  !*** ./node_modules/d3-ease/src/index.js ***!
+  \*******************************************/
+
+/*!*******************************************!*\
+  !*** ./node_modules/d3-path/src/index.js ***!
+  \*******************************************/
+
+/*!*******************************************!*\
+  !*** ./node_modules/d3-shape/src/area.js ***!
+  \*******************************************/
+
+/*!*******************************************!*\
+  !*** ./node_modules/d3-shape/src/line.js ***!
+  \*******************************************/
+
+/*!*******************************************!*\
+  !*** ./node_modules/d3-shape/src/math.js ***!
+  \*******************************************/
+
+/*!*******************************************!*\
+  !*** ./node_modules/d3-shape/src/noop.js ***!
+  \*******************************************/
+
+/*!*******************************************!*\
+  !*** ./node_modules/d3-zoom/src/event.js ***!
+  \*******************************************/
+
+/*!*******************************************!*\
+  !*** ./node_modules/d3-zoom/src/index.js ***!
+  \*******************************************/
+
+/*!********************************************!*\
+  !*** ./node_modules/d3-array/src/array.js ***!
+  \********************************************/
+
+/*!********************************************!*\
+  !*** ./node_modules/d3-array/src/cross.js ***!
+  \********************************************/
+
+/*!********************************************!*\
+  !*** ./node_modules/d3-array/src/index.js ***!
+  \********************************************/
+
+/*!********************************************!*\
+  !*** ./node_modules/d3-array/src/merge.js ***!
+  \********************************************/
+
+/*!********************************************!*\
+  !*** ./node_modules/d3-array/src/pairs.js ***!
+  \********************************************/
+
+/*!********************************************!*\
+  !*** ./node_modules/d3-array/src/range.js ***!
+  \********************************************/
+
+/*!********************************************!*\
+  !*** ./node_modules/d3-array/src/ticks.js ***!
+  \********************************************/
+
+/*!********************************************!*\
+  !*** ./node_modules/d3-color/src/color.js ***!
+  \********************************************/
+
+/*!********************************************!*\
+  !*** ./node_modules/d3-color/src/index.js ***!
+  \********************************************/
+
+/*!********************************************!*\
+  !*** ./node_modules/d3-drag/src/nodrag.js ***!
+  \********************************************/
+
+/*!********************************************!*\
+  !*** ./node_modules/d3-ease/src/bounce.js ***!
+  \********************************************/
+
+/*!********************************************!*\
+  !*** ./node_modules/d3-ease/src/circle.js ***!
+  \********************************************/
+
+/*!********************************************!*\
+  !*** ./node_modules/d3-ease/src/linear.js ***!
+  \********************************************/
+
+/*!********************************************!*\
+  !*** ./node_modules/d3-shape/src/array.js ***!
+  \********************************************/
+
+/*!********************************************!*\
+  !*** ./node_modules/d3-shape/src/index.js ***!
+  \********************************************/
+
+/*!********************************************!*\
+  !*** ./node_modules/d3-shape/src/point.js ***!
+  \********************************************/
+
+/*!********************************************!*\
+  !*** ./node_modules/d3-shape/src/stack.js ***!
+  \********************************************/
+
+/*!********************************************!*\
+  !*** ./node_modules/d3-timer/src/index.js ***!
+  \********************************************/
+
+/*!********************************************!*\
+  !*** ./node_modules/d3-timer/src/timer.js ***!
+  \********************************************/
+
+/*!*********************************************!*\
+  !*** ./node_modules/d3-array/src/bisect.js ***!
+  \*********************************************/
+
+/*!*********************************************!*\
+  !*** ./node_modules/d3-array/src/extent.js ***!
+  \*********************************************/
+
+/*!*********************************************!*\
+  !*** ./node_modules/d3-array/src/median.js ***!
+  \*********************************************/
+
+/*!*********************************************!*\
+  !*** ./node_modules/d3-array/src/number.js ***!
+  \*********************************************/
+
+/*!*********************************************!*\
+  !*** ./node_modules/d3-color/src/define.js ***!
+  \*********************************************/
+
+/*!*********************************************!*\
+  !*** ./node_modules/d3-drag/src/noevent.js ***!
+  \*********************************************/
+
+/*!*********************************************!*\
+  !*** ./node_modules/d3-ease/src/elastic.js ***!
+  \*********************************************/
+
+/*!*********************************************!*\
+  !*** ./node_modules/d3-shape/src/symbol.js ***!
+  \*********************************************/
+
+/*!*********************************************!*\
+  !*** ./node_modules/d3-zoom/src/noevent.js ***!
+  \*********************************************/
+
+/*!**********************************************!*\
+  !*** ./node_modules/d3-array/src/permute.js ***!
+  \**********************************************/
+
+/*!**********************************************!*\
+  !*** ./node_modules/d3-array/src/shuffle.js ***!
+  \**********************************************/
+
+/*!**********************************************!*\
+  !*** ./node_modules/d3-drag/src/constant.js ***!
+  \**********************************************/
+
+/*!**********************************************!*\
+  !*** ./node_modules/d3-timer/src/timeout.js ***!
+  \**********************************************/
+
+/*!**********************************************!*\
+  !*** ./node_modules/d3-zoom/src/constant.js ***!
+  \**********************************************/
+
+/*!**********************************************!*\
+  !*** ./node_modules/d3plus-text/es/index.js ***!
+  \**********************************************/
+
+/*!**********************************************!*\
+  !*** ./node_modules/iso639-codes/index.json ***!
+  \**********************************************/
+
+/*!***********************************************!*\
+  !*** ./node_modules/d3-array/src/bisector.js ***!
+  \***********************************************/
+
+/*!***********************************************!*\
+  !*** ./node_modules/d3-array/src/constant.js ***!
+  \***********************************************/
+
+/*!***********************************************!*\
+  !*** ./node_modules/d3-array/src/identity.js ***!
+  \***********************************************/
+
+/*!***********************************************!*\
+  !*** ./node_modules/d3-array/src/quantile.js ***!
+  \***********************************************/
+
+/*!***********************************************!*\
+  !*** ./node_modules/d3-array/src/variance.js ***!
+  \***********************************************/
+
+/*!***********************************************!*\
+  !*** ./node_modules/d3-collection/src/map.js ***!
+  \***********************************************/
+
+/*!***********************************************!*\
+  !*** ./node_modules/d3-collection/src/set.js ***!
+  \***********************************************/
+
+/*!***********************************************!*\
+  !*** ./node_modules/d3-dispatch/src/index.js ***!
+  \***********************************************/
+
+/*!***********************************************!*\
+  !*** ./node_modules/d3-hierarchy/src/tree.js ***!
+  \***********************************************/
+
+/*!***********************************************!*\
+  !*** ./node_modules/d3-shape/src/constant.js ***!
+  \***********************************************/
+
+/*!***********************************************!*\
+  !*** ./node_modules/d3-shape/src/identity.js ***!
+  \***********************************************/
+
+/*!***********************************************!*\
+  !*** ./node_modules/d3-timer/src/interval.js ***!
+  \***********************************************/
+
+/*!***********************************************!*\
+  !*** ./node_modules/d3-zoom/src/transform.js ***!
+  \***********************************************/
+
+/*!************************************************!*\
+  !*** ./node_modules/d3-array/src/ascending.js ***!
+  \************************************************/
+
+/*!************************************************!*\
+  !*** ./node_modules/d3-array/src/deviation.js ***!
+  \************************************************/
+
+/*!************************************************!*\
+  !*** ./node_modules/d3-array/src/histogram.js ***!
+  \************************************************/
+
+/*!************************************************!*\
+  !*** ./node_modules/d3-array/src/transpose.js ***!
+  \************************************************/
+
+/*!************************************************!*\
+  !*** ./node_modules/d3-collection/src/keys.js ***!
+  \************************************************/
+
+/*!************************************************!*\
+  !*** ./node_modules/d3-collection/src/nest.js ***!
+  \************************************************/
+
+/*!************************************************!*\
+  !*** ./node_modules/d3-color/src/cubehelix.js ***!
+  \************************************************/
+
+/*!************************************************!*\
+  !*** ./node_modules/d3-hierarchy/src/array.js ***!
+  \************************************************/
+
+/*!************************************************!*\
+  !*** ./node_modules/d3-hierarchy/src/index.js ***!
+  \************************************************/
+
+/*!************************************************!*\
+  !*** ./node_modules/d3-interpolate/src/hcl.js ***!
+  \************************************************/
+
+/*!************************************************!*\
+  !*** ./node_modules/d3-interpolate/src/hsl.js ***!
+  \************************************************/
+
+/*!************************************************!*\
+  !*** ./node_modules/d3-interpolate/src/hue.js ***!
+  \************************************************/
+
+/*!************************************************!*\
+  !*** ./node_modules/d3-interpolate/src/lab.js ***!
+  \************************************************/
+
+/*!************************************************!*\
+  !*** ./node_modules/d3-interpolate/src/rgb.js ***!
+  \************************************************/
+
+/*!************************************************!*\
+  !*** ./node_modules/d3-selection/src/index.js ***!
+  \************************************************/
+
+/*!************************************************!*\
+  !*** ./node_modules/d3-selection/src/local.js ***!
+  \************************************************/
+
+/*!************************************************!*\
+  !*** ./node_modules/d3-selection/src/mouse.js ***!
+  \************************************************/
+
+/*!************************************************!*\
+  !*** ./node_modules/d3-selection/src/point.js ***!
+  \************************************************/
+
+/*!************************************************!*\
+  !*** ./node_modules/d3-selection/src/touch.js ***!
+  \************************************************/
+
+/*!************************************************!*\
+  !*** ./node_modules/d3plus-common/es/index.js ***!
+  \************************************************/
+
+/*!************************************************!*\
+  !*** ./node_modules/d3plus-text/es/src/rtl.js ***!
+  \************************************************/
+
+/*!************************************************!*\
+  !*** ./node_modules/windows-locale/index.json ***!
+  \************************************************/
+
+/*!*************************************************!*\
+  !*** ./node_modules/d3-array/src/descending.js ***!
+  \*************************************************/
+
+/*!*************************************************!*\
+  !*** ./node_modules/d3-collection/src/index.js ***!
+  \*************************************************/
+
+/*!*************************************************!*\
+  !*** ./node_modules/d3-interpolate/src/date.js ***!
+  \*************************************************/
+
+/*!*************************************************!*\
+  !*** ./node_modules/d3-interpolate/src/zoom.js ***!
+  \*************************************************/
+
+/*!*************************************************!*\
+  !*** ./node_modules/d3-selection/src/create.js ***!
+  \*************************************************/
+
+/*!*************************************************!*\
+  !*** ./node_modules/d3-selection/src/select.js ***!
+  \*************************************************/
+
+/*!*************************************************!*\
+  !*** ./node_modules/d3-selection/src/window.js ***!
+  \*************************************************/
+
+/*!*************************************************!*\
+  !*** ./node_modules/d3-shape/src/areaRadial.js ***!
+  \*************************************************/
+
+/*!*************************************************!*\
+  !*** ./node_modules/d3-shape/src/curve/step.js ***!
+  \*************************************************/
+
+/*!*************************************************!*\
+  !*** ./node_modules/d3-shape/src/descending.js ***!
+  \*************************************************/
+
+/*!*************************************************!*\
+  !*** ./node_modules/d3-shape/src/lineRadial.js ***!
+  \*************************************************/
+
+/*!*************************************************!*\
+  !*** ./node_modules/d3-shape/src/link/index.js ***!
+  \*************************************************/
+
+/*!*************************************************!*\
+  !*** ./node_modules/d3-shape/src/order/none.js ***!
+  \*************************************************/
+
+/*!*************************************************!*\
+  !*** ./node_modules/d3-shape/src/symbol/wye.js ***!
+  \*************************************************/
+
+/*!*************************************************!*\
+  !*** ./node_modules/d3-transition/src/index.js ***!
+  \*************************************************/
+
+/*!*************************************************!*\
+  !*** ./node_modules/d3plus-text/es/src/trim.js ***!
+  \*************************************************/
+
+/*!**************************************************!*\
+  !*** ./node_modules/d3-collection/src/values.js ***!
+  \**************************************************/
+
+/*!**************************************************!*\
+  !*** ./node_modules/d3-dispatch/src/dispatch.js ***!
+  \**************************************************/
+
+/*!**************************************************!*\
+  !*** ./node_modules/d3-hierarchy/src/cluster.js ***!
+  \**************************************************/
+
+/*!**************************************************!*\
+  !*** ./node_modules/d3-interpolate/src/array.js ***!
+  \**************************************************/
+
+/*!**************************************************!*\
+  !*** ./node_modules/d3-interpolate/src/basis.js ***!
+  \**************************************************/
+
+/*!**************************************************!*\
+  !*** ./node_modules/d3-interpolate/src/color.js ***!
+  \**************************************************/
+
+/*!**************************************************!*\
+  !*** ./node_modules/d3-interpolate/src/index.js ***!
+  \**************************************************/
+
+/*!**************************************************!*\
+  !*** ./node_modules/d3-interpolate/src/round.js ***!
+  \**************************************************/
+
+/*!**************************************************!*\
+  !*** ./node_modules/d3-interpolate/src/value.js ***!
+  \**************************************************/
+
+/*!**************************************************!*\
+  !*** ./node_modules/d3-selection/src/creator.js ***!
+  \**************************************************/
+
+/*!**************************************************!*\
+  !*** ./node_modules/d3-selection/src/matcher.js ***!
+  \**************************************************/
+
+/*!**************************************************!*\
+  !*** ./node_modules/d3-selection/src/touches.js ***!
+  \**************************************************/
+
+/*!**************************************************!*\
+  !*** ./node_modules/d3-shape/src/curve/basis.js ***!
+  \**************************************************/
+
+/*!**************************************************!*\
+  !*** ./node_modules/d3-shape/src/offset/none.js ***!
+  \**************************************************/
+
+/*!**************************************************!*\
+  !*** ./node_modules/d3-shape/src/pointRadial.js ***!
+  \**************************************************/
+
+/*!**************************************************!*\
+  !*** ./node_modules/d3-shape/src/symbol/star.js ***!
+  \**************************************************/
+
+/*!**************************************************!*\
+  !*** ./node_modules/d3-transition/src/active.js ***!
+  \**************************************************/
+
+/*!**************************************************!*\
+  !*** ./node_modules/d3plus-text/es/src/strip.js ***!
+  \**************************************************/
+
+/*!***************************************************!*\
+  !*** ./node_modules/d3-collection/src/entries.js ***!
+  \***************************************************/
+
+/*!***************************************************!*\
+  !*** ./node_modules/d3-hierarchy/src/constant.js ***!
+  \***************************************************/
+
+/*!***************************************************!*\
+  !*** ./node_modules/d3-hierarchy/src/stratify.js ***!
+  \***************************************************/
+
+/*!***************************************************!*\
+  !*** ./node_modules/d3-interpolate/src/number.js ***!
+  \***************************************************/
+
+/*!***************************************************!*\
+  !*** ./node_modules/d3-interpolate/src/object.js ***!
+  \***************************************************/
+
+/*!***************************************************!*\
+  !*** ./node_modules/d3-interpolate/src/string.js ***!
+  \***************************************************/
+
+/*!***************************************************!*\
+  !*** ./node_modules/d3-selection/src/constant.js ***!
+  \***************************************************/
+
+/*!***************************************************!*\
+  !*** ./node_modules/d3-selection/src/selector.js ***!
+  \***************************************************/
+
+/*!***************************************************!*\
+  !*** ./node_modules/d3-shape/src/curve/bundle.js ***!
+  \***************************************************/
+
+/*!***************************************************!*\
+  !*** ./node_modules/d3-shape/src/curve/linear.js ***!
+  \***************************************************/
+
+/*!***************************************************!*\
+  !*** ./node_modules/d3-shape/src/curve/radial.js ***!
+  \***************************************************/
+
+/*!***************************************************!*\
+  !*** ./node_modules/d3-shape/src/symbol/cross.js ***!
+  \***************************************************/
+
+/*!***************************************************!*\
+  !*** ./node_modules/d3plus-common/es/src/elem.js ***!
+  \***************************************************/
+
+/*!***************************************************!*\
+  !*** ./node_modules/d3plus-common/es/src/uuid.js ***!
+  \***************************************************/
+
+/*!****************************************************!*\
+  !*** ./node_modules/d3-hierarchy/src/accessors.js ***!
+  \****************************************************/
+
+/*!****************************************************!*\
+  !*** ./node_modules/d3-hierarchy/src/partition.js ***!
+  \****************************************************/
+
+/*!****************************************************!*\
+  !*** ./node_modules/d3-selection/src/namespace.js ***!
+  \****************************************************/
+
+/*!****************************************************!*\
+  !*** ./node_modules/d3-selection/src/selectAll.js ***!
+  \****************************************************/
+
+/*!****************************************************!*\
+  !*** ./node_modules/d3-shape/src/curve/natural.js ***!
+  \****************************************************/
+
+/*!****************************************************!*\
+  !*** ./node_modules/d3-shape/src/offset/expand.js ***!
+  \****************************************************/
+
+/*!****************************************************!*\
+  !*** ./node_modules/d3-shape/src/offset/wiggle.js ***!
+  \****************************************************/
+
+/*!****************************************************!*\
+  !*** ./node_modules/d3-shape/src/order/reverse.js ***!
+  \****************************************************/
+
+/*!****************************************************!*\
+  !*** ./node_modules/d3-shape/src/symbol/circle.js ***!
+  \****************************************************/
+
+/*!****************************************************!*\
+  !*** ./node_modules/d3-shape/src/symbol/square.js ***!
+  \****************************************************/
+
+/*!****************************************************!*\
+  !*** ./node_modules/d3plus-common/es/src/RESET.js ***!
+  \****************************************************/
+
+/*!****************************************************!*\
+  !*** ./node_modules/d3plus-common/es/src/merge.js ***!
+  \****************************************************/
+
+/*!****************************************************!*\
+  !*** ./node_modules/d3plus-text/es/src/TextBox.js ***!
+  \****************************************************/
+
+/*!*****************************************************!*\
+  !*** ./node_modules/d3-hierarchy/src/pack/index.js ***!
+  \*****************************************************/
+
+/*!*****************************************************!*\
+  !*** ./node_modules/d3-interpolate/src/constant.js ***!
+  \*****************************************************/
+
+/*!*****************************************************!*\
+  !*** ./node_modules/d3-interpolate/src/discrete.js ***!
+  \*****************************************************/
+
+/*!*****************************************************!*\
+  !*** ./node_modules/d3-interpolate/src/quantize.js ***!
+  \*****************************************************/
+
+/*!*****************************************************!*\
+  !*** ./node_modules/d3-selection/src/namespaces.js ***!
+  \*****************************************************/
+
+/*!*****************************************************!*\
+  !*** ./node_modules/d3-shape/src/curve/cardinal.js ***!
+  \*****************************************************/
+
+/*!*****************************************************!*\
+  !*** ./node_modules/d3-shape/src/curve/monotone.js ***!
+  \*****************************************************/
+
+/*!*****************************************************!*\
+  !*** ./node_modules/d3-shape/src/symbol/diamond.js ***!
+  \*****************************************************/
+
+/*!*****************************************************!*\
+  !*** ./node_modules/d3-transition/src/interrupt.js ***!
+  \*****************************************************/
+
+/*!*****************************************************!*\
+  !*** ./node_modules/d3plus-common/es/src/assign.js ***!
+  \*****************************************************/
+
+/*!*****************************************************!*\
+  !*** ./node_modules/d3plus-common/es/src/prefix.js ***!
+  \*****************************************************/
+
+/*!*****************************************************!*\
+  !*** ./node_modules/d3plus-common/es/src/unique.js ***!
+  \*****************************************************/
+
+/*!*****************************************************!*\
+  !*** ./node_modules/d3plus-text/es/src/textWrap.js ***!
+  \*****************************************************/
+
+/*!******************************************************!*\
+  !*** ./node_modules/d3-array/src/threshold/scott.js ***!
+  \******************************************************/
+
+/*!******************************************************!*\
+  !*** ./node_modules/d3-interpolate/src/cubehelix.js ***!
+  \******************************************************/
+
+/*!******************************************************!*\
+  !*** ./node_modules/d3-interpolate/src/piecewise.js ***!
+  \******************************************************/
+
+/*!******************************************************!*\
+  !*** ./node_modules/d3-selection/src/selectorAll.js ***!
+  \******************************************************/
+
+/*!******************************************************!*\
+  !*** ./node_modules/d3-selection/src/sourceEvent.js ***!
+  \******************************************************/
+
+/*!******************************************************!*\
+  !*** ./node_modules/d3-shape/src/curve/basisOpen.js ***!
+  \******************************************************/
+
+/*!******************************************************!*\
+  !*** ./node_modules/d3-shape/src/order/ascending.js ***!
+  \******************************************************/
+
+/*!******************************************************!*\
+  !*** ./node_modules/d3-shape/src/order/insideOut.js ***!
+  \******************************************************/
+
+/*!******************************************************!*\
+  !*** ./node_modules/d3-shape/src/symbol/triangle.js ***!
+  \******************************************************/
+
+/*!******************************************************!*\
+  !*** ./node_modules/d3plus-common/es/src/attrize.js ***!
+  \******************************************************/
+
+/*!******************************************************!*\
+  !*** ./node_modules/d3plus-common/es/src/closest.js ***!
+  \******************************************************/
+
+/*!******************************************************!*\
+  !*** ./node_modules/d3plus-common/es/src/stylize.js ***!
+  \******************************************************/
+
+/*!******************************************************!*\
+  !*** ./node_modules/d3plus-text/es/src/stringify.js ***!
+  \******************************************************/
+
+/*!******************************************************!*\
+  !*** ./node_modules/d3plus-text/es/src/textSplit.js ***!
+  \******************************************************/
+
+/*!******************************************************!*\
+  !*** ./node_modules/d3plus-text/es/src/textWidth.js ***!
+  \******************************************************/
+
+/*!******************************************************!*\
+  !*** ./node_modules/d3plus-text/es/src/titleCase.js ***!
+  \******************************************************/
+
+/*!*******************************************************!*\
+  !*** ./node_modules/d3-hierarchy/src/pack/enclose.js ***!
+  \*******************************************************/
+
+/*!*******************************************************!*\
+  !*** ./node_modules/d3-hierarchy/src/treemap/dice.js ***!
+  \*******************************************************/
+
+/*!*******************************************************!*\
+  !*** ./node_modules/d3-selection/src/selection/on.js ***!
+  \*******************************************************/
+
+/*!*******************************************************!*\
+  !*** ./node_modules/d3-shape/src/curve/catmullRom.js ***!
+  \*******************************************************/
+
+/*!*******************************************************!*\
+  !*** ./node_modules/d3-shape/src/offset/diverging.js ***!
+  \*******************************************************/
+
+/*!*******************************************************!*\
+  !*** ./node_modules/d3-shape/src/order/appearance.js ***!
+  \*******************************************************/
+
+/*!*******************************************************!*\
+  !*** ./node_modules/d3-shape/src/order/descending.js ***!
+  \*******************************************************/
+
+/*!*******************************************************!*\
+  !*** ./node_modules/d3plus-common/es/src/accessor.js ***!
+  \*******************************************************/
+
+/*!*******************************************************!*\
+  !*** ./node_modules/d3plus-common/es/src/constant.js ***!
+  \*******************************************************/
+
+/*!*******************************************************!*\
+  !*** ./node_modules/d3plus-common/es/src/isObject.js ***!
+  \*******************************************************/
+
+/*!*******************************************************!*\
+  !*** ./node_modules/d3plus-text/es/src/fontExists.js ***!
+  \*******************************************************/
+
+/*!********************************************************!*\
+  !*** ./node_modules/d3-array/src/threshold/sturges.js ***!
+  \********************************************************/
+
+/*!********************************************************!*\
+  !*** ./node_modules/d3-hierarchy/src/hierarchy/sum.js ***!
+  \********************************************************/
+
+/*!********************************************************!*\
+  !*** ./node_modules/d3-hierarchy/src/pack/siblings.js ***!
+  \********************************************************/
+
+/*!********************************************************!*\
+  !*** ./node_modules/d3-hierarchy/src/treemap/index.js ***!
+  \********************************************************/
+
+/*!********************************************************!*\
+  !*** ./node_modules/d3-hierarchy/src/treemap/round.js ***!
+  \********************************************************/
+
+/*!********************************************************!*\
+  !*** ./node_modules/d3-hierarchy/src/treemap/slice.js ***!
+  \********************************************************/
+
+/*!********************************************************!*\
+  !*** ./node_modules/d3-interpolate/src/basisClosed.js ***!
+  \********************************************************/
+
+/*!********************************************************!*\
+  !*** ./node_modules/d3-interpolate/src/numberArray.js ***!
+  \********************************************************/
+
+/*!********************************************************!*\
+  !*** ./node_modules/d3-shape/src/curve/basisClosed.js ***!
+  \********************************************************/
+
+/*!********************************************************!*\
+  !*** ./node_modules/d3-shape/src/offset/silhouette.js ***!
+  \********************************************************/
+
+/*!********************************************************!*\
+  !*** ./node_modules/d3plus-common/es/src/BaseClass.js ***!
+  \********************************************************/
+
+/*!*********************************************************!*\
+  !*** ./node_modules/d3-hierarchy/src/hierarchy/each.js ***!
+  \*********************************************************/
+
+/*!*********************************************************!*\
+  !*** ./node_modules/d3-hierarchy/src/hierarchy/path.js ***!
+  \*********************************************************/
+
+/*!*********************************************************!*\
+  !*** ./node_modules/d3-hierarchy/src/hierarchy/sort.js ***!
+  \*********************************************************/
+
+/*!*********************************************************!*\
+  !*** ./node_modules/d3-hierarchy/src/treemap/binary.js ***!
+  \*********************************************************/
+
+/*!*********************************************************!*\
+  !*** ./node_modules/d3-selection/src/selection/attr.js ***!
+  \*********************************************************/
+
+/*!*********************************************************!*\
+  !*** ./node_modules/d3-selection/src/selection/call.js ***!
+  \*********************************************************/
+
+/*!*********************************************************!*\
+  !*** ./node_modules/d3-selection/src/selection/data.js ***!
+  \*********************************************************/
+
+/*!*********************************************************!*\
+  !*** ./node_modules/d3-selection/src/selection/each.js ***!
+  \*********************************************************/
+
+/*!*********************************************************!*\
+  !*** ./node_modules/d3-selection/src/selection/exit.js ***!
+  \*********************************************************/
+
+/*!*********************************************************!*\
+  !*** ./node_modules/d3-selection/src/selection/html.js ***!
+  \*********************************************************/
+
+/*!*********************************************************!*\
+  !*** ./node_modules/d3-selection/src/selection/join.js ***!
+  \*********************************************************/
+
+/*!*********************************************************!*\
+  !*** ./node_modules/d3-selection/src/selection/node.js ***!
+  \*********************************************************/
+
+/*!*********************************************************!*\
+  !*** ./node_modules/d3-selection/src/selection/size.js ***!
+  \*********************************************************/
+
+/*!*********************************************************!*\
+  !*** ./node_modules/d3-selection/src/selection/sort.js ***!
+  \*********************************************************/
+
+/*!*********************************************************!*\
+  !*** ./node_modules/d3-selection/src/selection/text.js ***!
+  \*********************************************************/
+
+/*!*********************************************************!*\
+  !*** ./node_modules/d3-shape/src/curve/cardinalOpen.js ***!
+  \*********************************************************/
+
+/*!*********************************************************!*\
+  !*** ./node_modules/d3-shape/src/curve/linearClosed.js ***!
+  \*********************************************************/
+
+/*!*********************************************************!*\
+  !*** ./node_modules/d3-transition/src/transition/on.js ***!
+  \*********************************************************/
+
+/*!*********************************************************!*\
+  !*** ./node_modules/d3plus-common/es/src/configPrep.js ***!
+  \*********************************************************/
+
+/*!*********************************************************!*\
+  !*** ./node_modules/d3plus-common/es/src/findLocale.js ***!
+  \*********************************************************/
+
+/*!*********************************************************!*\
+  !*** ./node_modules/d3plus-common/es/src/parseSides.js ***!
+  \*********************************************************/
+
+/*!**********************************************************!*\
+  !*** ./node_modules/d3-hierarchy/src/hierarchy/count.js ***!
+  \**********************************************************/
+
+/*!**********************************************************!*\
+  !*** ./node_modules/d3-hierarchy/src/hierarchy/index.js ***!
+  \**********************************************************/
+
+/*!**********************************************************!*\
+  !*** ./node_modules/d3-hierarchy/src/hierarchy/links.js ***!
+  \**********************************************************/
+
+/*!**********************************************************!*\
+  !*** ./node_modules/d3-selection/src/selection/clone.js ***!
+  \**********************************************************/
+
+/*!**********************************************************!*\
+  !*** ./node_modules/d3-selection/src/selection/datum.js ***!
+  \**********************************************************/
+
+/*!**********************************************************!*\
+  !*** ./node_modules/d3-selection/src/selection/empty.js ***!
+  \**********************************************************/
+
+/*!**********************************************************!*\
+  !*** ./node_modules/d3-selection/src/selection/enter.js ***!
+  \**********************************************************/
+
+/*!**********************************************************!*\
+  !*** ./node_modules/d3-selection/src/selection/index.js ***!
+  \**********************************************************/
+
+/*!**********************************************************!*\
+  !*** ./node_modules/d3-selection/src/selection/lower.js ***!
+  \**********************************************************/
+
+/*!**********************************************************!*\
+  !*** ./node_modules/d3-selection/src/selection/merge.js ***!
+  \**********************************************************/
+
+/*!**********************************************************!*\
+  !*** ./node_modules/d3-selection/src/selection/nodes.js ***!
+  \**********************************************************/
+
+/*!**********************************************************!*\
+  !*** ./node_modules/d3-selection/src/selection/order.js ***!
+  \**********************************************************/
+
+/*!**********************************************************!*\
+  !*** ./node_modules/d3-selection/src/selection/raise.js ***!
+  \**********************************************************/
+
+/*!**********************************************************!*\
+  !*** ./node_modules/d3-selection/src/selection/style.js ***!
+  \**********************************************************/
+
+/*!**********************************************************!*\
+  !*** ./node_modules/d3-transition/src/transition/end.js ***!
+  \**********************************************************/
+
+/*!***********************************************************!*\
+  !*** ./node_modules/d3-hierarchy/src/hierarchy/leaves.js ***!
+  \***********************************************************/
+
+/*!***********************************************************!*\
+  !*** ./node_modules/d3-hierarchy/src/treemap/squarify.js ***!
+  \***********************************************************/
+
+/*!***********************************************************!*\
+  !*** ./node_modules/d3-selection/src/selection/append.js ***!
+  \***********************************************************/
+
+/*!***********************************************************!*\
+  !*** ./node_modules/d3-selection/src/selection/filter.js ***!
+  \***********************************************************/
+
+/*!***********************************************************!*\
+  !*** ./node_modules/d3-selection/src/selection/insert.js ***!
+  \***********************************************************/
+
+/*!***********************************************************!*\
+  !*** ./node_modules/d3-selection/src/selection/remove.js ***!
+  \***********************************************************/
+
+/*!***********************************************************!*\
+  !*** ./node_modules/d3-selection/src/selection/select.js ***!
+  \***********************************************************/
+
+/*!***********************************************************!*\
+  !*** ./node_modules/d3-selection/src/selection/sparse.js ***!
+  \***********************************************************/
+
+/*!***********************************************************!*\
+  !*** ./node_modules/d3-shape/src/curve/cardinalClosed.js ***!
+  \***********************************************************/
+
+/*!***********************************************************!*\
+  !*** ./node_modules/d3-shape/src/curve/catmullRomOpen.js ***!
+  \***********************************************************/
+
+/*!***********************************************************!*\
+  !*** ./node_modules/d3-transition/src/selection/index.js ***!
+  \***********************************************************/
+
+/*!***********************************************************!*\
+  !*** ./node_modules/d3-transition/src/transition/attr.js ***!
+  \***********************************************************/
+
+/*!***********************************************************!*\
+  !*** ./node_modules/d3-transition/src/transition/ease.js ***!
+  \***********************************************************/
+
+/*!***********************************************************!*\
+  !*** ./node_modules/d3-transition/src/transition/text.js ***!
+  \***********************************************************/
+
+/*!***********************************************************!*\
+  !*** ./node_modules/d3plus-text/es/src/combiningMarks.js ***!
+  \***********************************************************/
+
+/*!************************************************************!*\
+  !*** ./node_modules/d3-hierarchy/src/treemap/sliceDice.js ***!
+  \************************************************************/
+
+/*!************************************************************!*\
+  !*** ./node_modules/d3-interpolate/src/transform/index.js ***!
+  \************************************************************/
+
+/*!************************************************************!*\
+  !*** ./node_modules/d3-interpolate/src/transform/parse.js ***!
+  \************************************************************/
+
+/*!************************************************************!*\
+  !*** ./node_modules/d3-selection/src/selection/classed.js ***!
+  \************************************************************/
+
+/*!************************************************************!*\
+  !*** ./node_modules/d3-transition/src/transition/delay.js ***!
+  \************************************************************/
+
+/*!************************************************************!*\
+  !*** ./node_modules/d3-transition/src/transition/index.js ***!
+  \************************************************************/
+
+/*!************************************************************!*\
+  !*** ./node_modules/d3-transition/src/transition/merge.js ***!
+  \************************************************************/
+
+/*!************************************************************!*\
+  !*** ./node_modules/d3-transition/src/transition/style.js ***!
+  \************************************************************/
+
+/*!************************************************************!*\
+  !*** ./node_modules/d3-transition/src/transition/tween.js ***!
+  \************************************************************/
+
+/*!************************************************************!*\
+  !*** ./node_modules/d3plus-common/es/src/locales/es-ES.js ***!
+  \************************************************************/
+
+/*!************************************************************!*\
+  !*** ./node_modules/d3plus-common/es/src/locales/index.js ***!
+  \************************************************************/
+
+/*!*************************************************************!*\
+  !*** ./node_modules/d3-hierarchy/src/treemap/resquarify.js ***!
+  \*************************************************************/
+
+/*!*************************************************************!*\
+  !*** ./node_modules/d3-selection/src/selection/dispatch.js ***!
+  \*************************************************************/
+
+/*!*************************************************************!*\
+  !*** ./node_modules/d3-selection/src/selection/property.js ***!
+  \*************************************************************/
+
+/*!*************************************************************!*\
+  !*** ./node_modules/d3-shape/src/curve/catmullRomClosed.js ***!
+  \*************************************************************/
+
+/*!*************************************************************!*\
+  !*** ./node_modules/d3-transition/src/transition/filter.js ***!
+  \*************************************************************/
+
+/*!*************************************************************!*\
+  !*** ./node_modules/d3-transition/src/transition/remove.js ***!
+  \*************************************************************/
+
+/*!*************************************************************!*\
+  !*** ./node_modules/d3-transition/src/transition/select.js ***!
+  \*************************************************************/
+
+/*!**************************************************************!*\
+  !*** ./node_modules/d3-hierarchy/src/hierarchy/ancestors.js ***!
+  \**************************************************************/
+
+/*!**************************************************************!*\
+  !*** ./node_modules/d3-hierarchy/src/hierarchy/eachAfter.js ***!
+  \**************************************************************/
+
+/*!**************************************************************!*\
+  !*** ./node_modules/d3-selection/src/selection/selectAll.js ***!
+  \**************************************************************/
+
+/*!***************************************************************!*\
+  !*** ./node_modules/d3-hierarchy/src/hierarchy/eachBefore.js ***!
+  \***************************************************************/
+
+/*!***************************************************************!*\
+  !*** ./node_modules/d3-transition/src/selection/interrupt.js ***!
+  \***************************************************************/
+
+/*!***************************************************************!*\
+  !*** ./node_modules/d3-transition/src/transition/duration.js ***!
+  \***************************************************************/
+
+/*!***************************************************************!*\
+  !*** ./node_modules/d3-transition/src/transition/schedule.js ***!
+  \***************************************************************/
+
+/*!****************************************************************!*\
+  !*** ./node_modules/d3-hierarchy/src/hierarchy/descendants.js ***!
+  \****************************************************************/
+
+/*!****************************************************************!*\
+  !*** ./node_modules/d3-interpolate/src/transform/decompose.js ***!
+  \****************************************************************/
+
+/*!****************************************************************!*\
+  !*** ./node_modules/d3-transition/src/selection/transition.js ***!
+  \****************************************************************/
+
+/*!****************************************************************!*\
+  !*** ./node_modules/d3-transition/src/transition/attrTween.js ***!
+  \****************************************************************/
+
+/*!****************************************************************!*\
+  !*** ./node_modules/d3-transition/src/transition/selectAll.js ***!
+  \****************************************************************/
+
+/*!****************************************************************!*\
+  !*** ./node_modules/d3-transition/src/transition/selection.js ***!
+  \****************************************************************/
+
+/*!****************************************************************!*\
+  !*** ./node_modules/d3-transition/src/transition/textTween.js ***!
+  \****************************************************************/
+
+/*!*****************************************************************!*\
+  !*** ./node_modules/d3-array/src/threshold/freedmanDiaconis.js ***!
+  \*****************************************************************/
+
+/*!*****************************************************************!*\
+  !*** ./node_modules/d3-transition/src/transition/styleTween.js ***!
+  \*****************************************************************/
+
+/*!*****************************************************************!*\
+  !*** ./node_modules/d3-transition/src/transition/transition.js ***!
+  \*****************************************************************/
+
+/*!******************************************************************!*\
+  !*** ./node_modules/d3-transition/src/transition/interpolate.js ***!
+  \******************************************************************/
