@@ -3,40 +3,42 @@
 - label: Home
   link: /
 
-- label: 'Introduction'
+- label: 'About'
   items:
     - label: 'What is MC+?'
-      link: /mc+/what-is-mc+
+      link: /about/what-is-mc+
     - label: 'Background'
-      link: /mc+/background
+      link: /about/background
     - label: 'The MC+ framework'
-      link: /mc+/framework
+      link: /about/framework
+    - label: 'Using MC+'
+      link: /about/using-mc+
     # - label: 'Test plot'
     #   link: /mc+/test-plot
 
-- label: 'Getting started'
-  items:
-    - label: 'Who can use MC+?'
-      link: /mc+/who-can-use-mc+    
-    - label: 'What could MC+ offer me?'
-      link: /mc+/what-could-mc+offer-me
-    # - label: 'MC+ for policy'
-    #   link: /mc+/what-could-mc+offer-me
-    # - label: 'MC+ for governance'
-    #   link: /mc+/what-could-mc+offer-me
-    - label: 'FAQs'
-      link: /mc+/faqs
-
 - label: 'Resources'
   items:
+    - label: 'All Resources'
+      link: /resources/all-resources  
     - label: 'Dataset Card'
+      link: /resources/dataset-card
     - label: 'Model Card'
+      link: /resources/model-card
     - label: 'System Card'
-
-- label: 'MC+ in context'
-  items:
+      link: /resources/system-card
+    - label: 'FAQs'
+      link: /resources/faqs
     - label: 'Example use'
-      link: /mc+/example
+      link: /resources/example      
+
+- label: 'Further info'
+  items:
+    - label: Contact us
+      link: /info/contact
+    - label: Acknowledgements
+      link: /info/acknowledgements
+    - label: Cookie policy
+      link: /info/cookies
 
 # - label: 'Getting Started'
 #   items: 

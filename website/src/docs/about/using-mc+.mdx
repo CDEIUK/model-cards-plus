@@ -2,13 +2,20 @@
 title: Using MC+
 ---
 
-### Who MC+ is for
+### Users
 
 The MC+ framework can be used by anyone involved in the delivery of AI systems for documenting their work. The three cards are designed to be used independently with different audiences in mind. Table 2 suggests the types of people that each card could be written and read by in the author and audience columns respectively.
 
-<table><tbody><tr><th>Card</th><th>Authors</th><th>Audience</th></tr><tr style={{ backgroundColor: "var(--dataset)" }}><td><p><strong>Dataset Card</strong></p></td><td><ul><li>Data engineers*</li><li>Data architects °</li><li>Data analysts °⁺</li><li>Data scientists °⁺</li><li>Data administrators ⁺</li></ul></td><td><ul><li>ML engineers</li><li>ML researchers</li><li>AI ethics officers</li><li>Data managers</li><li>Data protection officers</li><li>Dataset customers</li></ul></td></tr><tr style={{ backgroundColor: "var(--model)" }}><td><p><strong>Model Card</strong></p></td><td><ul><li>ML engineers °*</li><li>ML researchers ⁺*</li><li>AI ethics officers ⁺</li></ul></td><td><ul><li>AI product managers</li><li>MLOps engineers</li><li>Software engineers</li><li>Model customers</li></ul></td></tr><tr style={{ backgroundColor: "var(--system)" }}><td><p><strong>System Card</strong></p></td><td><ul><li>AI product managers °*</li><li>Software engineers °*</li><li>MLOps engineers °</li><li>Compliance officers ⁺</li><li>AI ethics officers ⁺</li></ul></td><td><ul><li>Technology managers</li><li>Programme managers</li><li>Compliance managers</li><li>Business intelligence analysts</li><li>System customers</li><li>System end users</li></ul></td></tr></tbody></table>
+<table><tbody><tr><th>Card</th><th>Authors</th><th>Audience</th></tr><tr 
+onMouseEnter={(e) => e.currentTarget.style.backgroundColor = 'var(--dataset)'} 
+onMouseLeave={(e) => e.currentTarget.style.backgroundColor = ''}>
+<td><p><strong>Dataset Card</strong></p></td><td><ul><li>Data engineers*</li><li>Data architects</li><li>Data analysts</li><li>Data scientists</li><li>Data administrators</li></ul></td><td><ul><li>ML engineers</li><li>ML researchers</li><li>AI ethics officers</li><li>Data managers</li><li>Data protection officers</li><li>Dataset customers</li></ul></td></tr><tr 
+onMouseEnter={(e) => e.currentTarget.style.backgroundColor = 'var(--model)'} 
+onMouseLeave={(e) => e.currentTarget.style.backgroundColor = ''}><td><p><strong>Model Card</strong></p></td><td><ul><li>ML engineers*</li><li>ML researchers*</li><li>AI ethics officers</li></ul></td><td><ul><li>AI product managers</li><li>MLOps engineers</li><li>Software engineers</li><li>Model customers</li></ul></td></tr><tr 
+onMouseEnter={(e) => e.currentTarget.style.backgroundColor = 'var(--system)'} 
+onMouseLeave={(e) => e.currentTarget.style.backgroundColor = ''}><td><p><strong>System Card</strong></p></td><td><ul><li>AI product managers*</li><li>Software engineers*</li><li>MLOps engineers</li><li>Compliance officers</li><li>AI ethics officers</li></ul></td><td><ul><li>Technology managers</li><li>Programme managers</li><li>Compliance managers</li><li>Business intelligence analysts</li><li>System customers</li><li>System end users</li></ul></td></tr></tbody></table>
 
-*Table 2: List of suggested MC+ card authors and audiences. Roles most suitable for lead author are indicated by an asterisk.*
+*List of suggested MC+ card authors and audiences. Roles most suitable for lead author are indicated by an asterisk.*
 
 ### Ways of using MC+
 

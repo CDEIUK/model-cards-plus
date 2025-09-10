@@ -40,6 +40,13 @@ export default function GlobalStyle() {
           text-rendering: optimizelegibility;
         }
 
+        :root {
+          --dataset: #FEBD76;
+          --model: #8DD8A4;
+          --system: #CF88E3;
+          --white: #ffffff;
+        }
+
         h1 {
           font-size: 32px;
           font-family: "Alte DIN 1451 Mittelschrift", sans-serif;
@@ -170,7 +177,7 @@ export default function GlobalStyle() {
 
         ul,
         ol {
-          color: #737380;
+          color: ${theme.colors.font};
           padding-left: 15px;
           margin-bottom: 16px;
 

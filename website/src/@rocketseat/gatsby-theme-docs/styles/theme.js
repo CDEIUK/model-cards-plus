@@ -1,14 +1,14 @@
 const theme = {
   colors: {
-    primary: "#00a886",
-    background: "#f0ede3",
+    primary: "#4672C4",
+    background: "rgba(245, 251, 255, 1)",
     font: "#262445",
     sidebar: {
-      background: "#f0ede3",
+      background: "rgba(245, 251, 255, 1)",
       link: "#262445",
       heading: "#aaa",
       linkActive: "#13131A",
-      itemActive: "#f2603b",
+      itemActive: "#4672C4",
       footer: "#A8A8B3",
     },
   },

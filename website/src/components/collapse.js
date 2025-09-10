@@ -8,15 +8,19 @@ import {
 } from "react-accessible-accordion"
 import "./accordion.css"
 
-export default function Collapse({ children, label }) {
+export default function Collapse({ children, label, hovercolor }) {
   return (
     <Accordion allowZeroExpanded={true}>
       <AccordionItem>
         <AccordionItemHeading>
-          <AccordionItemButton>{label}</AccordionItemButton>
+          <AccordionItemButton 
+          className="accordion__button"
+          style={{ '--hover-color': hovercolor }}>
+            {label}
+            </AccordionItemButton>
         </AccordionItemHeading>
         <AccordionItemPanel>{children}</AccordionItemPanel>
       </AccordionItem>
-    </Accordion>
+    </ Accordion>
   )
 }
