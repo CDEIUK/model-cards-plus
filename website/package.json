@@ -52,8 +52,10 @@
     "format-check": "prettier --check \"**/*.{css,js,jsx,md,mdx}\"",
     "start": "npm run develop",
     "serve": "gatsby serve --prefix-paths",
-    "clean": "gatsby clean"
+    "clean": "gatsby clean",
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public"
   },
+  
   "repository": {
     "type": "git",
     "url": "https://github.com/CDEIUK/model-cards-plus"
